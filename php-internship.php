@@ -68,6 +68,7 @@
                                     successful job placement.</p>
                     </div>
                 </div>
+
                 <div class="col-lg-12">
                     <div class="tp-contact-page-info ">
                         <h6><b>What is PHP Programming?</b>
@@ -177,7 +178,8 @@
                 </div>
                 <br>
                 <h3><b>Course Curriculum</b></h3>
-                <div class="col-lg-12">
+
+                <!-- <div class="col-lg-12">
                     <div class="tp-contact-page-info">
                         <h6><b>Introduction to PHP</b></h6>
                         <ul style="margin-bottom: 0px; padding-inline-start: 48px;">
@@ -308,7 +310,9 @@
                         </p>
                     </li>
                 </ul>
-                <!-- Database Connectivity with MySQL -->
+
+
+               
                 <h6><b>Database Connectivity with MySQL</b></h6>
                 <ul style="margin-bottom: 0px; padding-inline-start: 48px;">
                     <li
@@ -350,7 +354,7 @@
                     </li>
                 </ul>
 
-                <!-- Real-Time Project Implementation in PHP Industry -->
+               
                 <h6><b>Real-Time Project Implementation in PHP Industry</b></h6>
                 <ul style="margin-bottom: 0px; padding-inline-start: 48px;">
                     <li
@@ -529,16 +533,30 @@
                             </li>
                         </ul>
                     </li>
-                </ul>
-                <a href="about.php" class="tp-slider-btn orange-chat-color tp-btn-hover alt-color alt-bg-orange"
-                    data-animation="tpfadeUp" data-delay=".9s">
-                    <span class="mr-10">
-                        <i class="fas fa-comments"></i>
-                        <i class="fas fa-comments"></i>
-                    </span>
-                    Apply Now
-                    <b></b>
-                </a>
+                </ul> -->
+
+
+                <div class="center-container">
+                    <a href="about.php" class="tp-slider-btn orange-chat-color tp-btn-hover alt-color alt-bg-orange"
+                        data-animation="tpfadeUp" data-delay=".9s">
+                        <span class="mr-10">
+                            <i class="fas fa-comments"></i>
+                            <i class="fas fa-comments"></i>
+                        </span>
+                        Apply Now
+                        <b></b>
+                    </a>
+                </div>
+
+                <style>
+                .center-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    /* Adjust the height as needed */
+                    text-align: center;
+                }
+                </style>
 
 
             </div>

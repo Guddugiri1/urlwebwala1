@@ -22,7 +22,7 @@
                      <span class="dvdr dvdr-line"></span>
                      <span class="tp-bc-acive-menu">Services</span>
                   </div>
-                  <h3 class="breadcrumb__title">What We Do</h3>
+                  <h3 class="breadcrumb__title">Digital Card Design</h3>
                </div>
             </div>
          </div>
@@ -43,7 +43,8 @@
                               <span><i class="flaticon-computer"></i></span>
                               <!-- flaticon-analytics -->
                            </div>
-                           <h3 class="sv-detials-sv-item__title"><a href="service.html"> Definition & Structure</a></h3>
+                           <h3 class="sv-detials-sv-item__title"><a href="service.html"> Definition &
+                                 Structure</a></h3>
                            <span class="counter-number">01</span>
                         </div>
                      </div>
@@ -53,7 +54,8 @@
                               <span><i class="flaticon-computer"></i></span>
                               <!-- flaticon-analytics -->
                            </div>
-                           <h3 class="sv-detials-sv-item__title"><a href="service.html"> Analysis & Planning</a></h3>
+                           <h3 class="sv-detials-sv-item__title"><a href="service.html"> Analysis &
+                                 Planning</a></h3>
                            <span class="counter-number">02</span>
                         </div>
                      </div>
@@ -63,7 +65,8 @@
                               <span><i class="flaticon-computer"></i></span>
                               <!-- flaticon-analytics -->
                            </div>
-                           <h3 class="sv-detials-sv-item__title"><a href="service.html"> Solutions & Findings</a></h3>
+                           <h3 class="sv-detials-sv-item__title"><a href="service.html"> Solutions &
+                                 Findings</a></h3>
                            <span class="counter-number">03</span>
                         </div>
                      </div>
@@ -73,7 +76,8 @@
                               <span><i class="flaticon-computer"></i></span>
                               <!-- flaticon-analytics -->
                            </div>
-                           <h3 class="sv-detials-sv-item__title"><a href="service.html"> Recommendations</a></h3>
+                           <h3 class="sv-detials-sv-item__title"><a href="service.html"> Recommendations</a>
+                           </h3>
                            <span class="counter-number">04</span>
                         </div>
                      </div>
@@ -85,7 +89,12 @@
                   <div class="section-title-wraper">
                      <div class="tp-section">
                         <h2 class="tp-section__title mb-25">Digital Card Design</h2>
-                        <p class="mb-0 pb-25" style="text-align: justify;">We employ the most recent designs at Urlwebwala Corporation LLP to assist you with your business cards. Learn more about our unique business card design services in Ahmedabad by looking at some of our examples. We aim to give any degree of assistance and support by providing high-performing services, removing your concerns regarding your brand identification.</p>
+                        <p class="mb-0 pb-25" style="text-align: justify;">We employ the most recent designs at
+                           Urlwebwala Corporation LLP to assist you with your business cards. Learn more about
+                           our unique business card design services in Ahmedabad by looking at some of our
+                           examples. We aim to give any degree of assistance and support by providing
+                           high-performing services, removing your concerns regarding your brand
+                           identification.</p>
                      </div>
                   </div>
                   <!--<div class="tp-sv-about-cta d-flex align-items-center mb-30">-->
@@ -116,7 +125,7 @@
             <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design consultancy">
                <div class="pf-item-wrapper p-relative">
                   <div class="pf-single-item">
-                     <img src="assets/img/portfolio/newimage22.png" alt="">
+                     <img src="assets/img/services/1.jpg" alt="">
                   </div>
 
                </div>
@@ -124,7 +133,7 @@
             <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img business support">
                <div class="pf-item-wrapper p-relative">
                   <div class="pf-single-item">
-                     <img src="assets/img/portfolio/newimage23.png" alt="">
+                     <img src="assets/img/services/6.jpg" alt="">
                   </div>
 
                </div>
@@ -132,7 +141,7 @@
             <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img consultancy business">
                <div class="pf-item-wrapper p-relative">
                   <div class="pf-single-item">
-                     <img src="assets/img/portfolio/newimage24.png" alt="">
+                     <img src="assets/img/services/4.jpg" alt="">
                   </div>
 
                </div>
@@ -140,7 +149,7 @@
             <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design support">
                <div class="pf-item-wrapper p-relative">
                   <div class="pf-single-item">
-                     <img src="assets/img/portfolio/newimage25.png" alt="">
+                     <img src="assets/img/services/3.jpg" alt="">
                   </div>
 
                </div>
@@ -148,7 +157,7 @@
             <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img business consultancy">
                <div class="pf-item-wrapper p-relative">
                   <div class="pf-single-item">
-                     <img src="assets/img/portfolio/image26.png" alt="">
+                     <img src="assets/img/services/5.jpg" alt="">
                   </div>
 
                </div>
@@ -156,10 +165,11 @@
             <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
                <div class="pf-item-wrapper p-relative">
                   <div class="pf-single-item">
-                     <img src="assets/img/portfolio/newimage29.png" alt="">
+                     <img src="assets/img/services/2.jpg" alt="">
                   </div>
                </div>
             </div>
+
 
 
 
@@ -269,11 +279,13 @@
                   <div class="accordion tp-accordion wow tpfadeUp" id="accordionExample">
                      <div class="accordion-item wow tpfadeUp">
                         <h2 class="accordion-header" id="faq1">
-                           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                               Usability Testing
                            </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="faq1" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="faq1"
+                           data-bs-parent="#accordionExample">
                            <div class="accordion-body">
                               On the other hand we denounce with righteous indignation &amp;
                               dislike men who are so beguiled and demoralized by the charms
@@ -283,11 +295,13 @@
                      </div>
                      <div class="accordion-item ">
                         <h2 class="accordion-header" id="faq2">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                               Design Making &amp; Develop
                            </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#accordionExample">
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="faq2"
+                           data-bs-parent="#accordionExample">
                            <div class="accordion-body">
                               Research helps you plan the best way to get your product from the
                               manufacturer
@@ -300,11 +314,13 @@
                      </div>
                      <div class="accordion-item " data-aos="fade-up" data-aos-duration="2000">
                         <h2 class="accordion-header" id="faq3">
-                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                               Refund Policy
                            </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#accordionExample">
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faq3"
+                           data-bs-parent="#accordionExample">
                            <div class="accordion-body">
                               On the other hand we denounce with righteous indignation &amp;
                               dislike men who are so beguiled and demoralized by the charms

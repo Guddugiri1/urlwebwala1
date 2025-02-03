@@ -78,7 +78,7 @@
                                     Design software and tools, streamlining the website design process.</p>
                     </div>
                 </div>
-                <div class="col-lg-12">
+                <!-- <div class="col-lg-12">
                     <div class="tp-contact-page-info ">
                         <h6><b>Industries Leveraging Web Designing:</b>
                             <h6>
@@ -218,11 +218,11 @@
                                     your goals. For more information about our Web Design Internship, contact us today.
                                 </p>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col-lg-12">
                     <div class="tp-contact-page-info ">
-                        <h6><b>Internship Curriculum:</b>
+                        <!-- <h6><b>Internship Curriculum:</b>
                             <h6>
                                 <p>Module 1: Introduction to Web Design</p>
                                 <ul style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
@@ -628,7 +628,30 @@
                                                 style="font-size:12pt;font-family:Roboto,sans-serif;color:#0d0d0d;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Embedding
                                                 Flash Content in HTML and Adding Motion, Sound, and Animation</span></p>
                                     </li>
-                                </ul>
+                                </ul> -->
+
+                        <div class="center-container">
+                            <a href="about.php"
+                                class="tp-slider-btn orange-chat-color tp-btn-hover alt-color alt-bg-orange"
+                                data-animation="tpfadeUp" data-delay=".9s">
+                                <span class="mr-10">
+                                    <i class="fas fa-comments"></i>
+                                    <i class="fas fa-comments"></i>
+                                </span>
+                                Apply Now
+                                <b></b>
+                            </a>
+                        </div>
+
+                        <style>
+                        .center-container {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            /* Adjust the height as needed */
+                            text-align: center;
+                        }
+                        </style>
                     </div>
                 </div>
 

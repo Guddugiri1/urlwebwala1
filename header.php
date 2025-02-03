@@ -246,21 +246,21 @@ if($end == 'index.php'){ ?>
                                                     <li><a href="php-internship.php">PHP</a></li>
                                                     <li><a href="web-design-internship.php">WEB DEVELOPMENT</a></li>
                                                     <li><a href="flutter-internship.php">FLUTTER</a></li>
-                                                    <li><a href="android-internship.php">ANDROID</a></li>
+                                                    <!-- <li><a href="android-internship.php">ANDROID</a></li> -->
                                                     <li><a href="reactJS-internship.php">REACT JS</a></li>
                                                     <li><a href="nodeJS-internship.php">NODE JS</a></li>
-                                                    <li><a href="live-project-internship.php">LIVE PROJECT TRAINING</a>
-                                                    </li>
-                                                </ul>
+                                                    <!-- <li><a href="live-project-internship.php">LIVE PROJECT TRAINING</a> -->
                                             </li>
-                                            </li>
-                                            <li>
-                                                <a href="portfolio.php">Portfolio</a>
-                                            </li>
-                                            <li>
-                                                <a href="contact.php">Contact Us</a>
-                                            </li>
-                                            <!-- <li>
+                                        </ul>
+                                        </li>
+                                        </li>
+                                        <li>
+                                            <a href="portfolio.php">Portfolio</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.php">Contact Us</a>
+                                        </li>
+                                        <!-- <li>
                                                 <a href="team.php">Admin</a>
                                             </li> -->
                                         </ul>
@@ -317,7 +317,7 @@ if($end == 'index.php'){ ?>
                     <span class="icon mr-20"><img src="assets/img/icons/ofp-phone.png" alt=""></span>
                     <span>
                         <span class="d-block mb-0">Phone number</span>
-                        <b><a href="tel:+916359102592"> Call Us: +91 6359-102-592 </a></b>
+                        <b><a href="tel:+916359433164"> Call Us: +91 6359433164 </a></b>
                     </span>
                 </div>
 

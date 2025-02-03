@@ -186,40 +186,40 @@
         </div>
     </div> -->
 
-    <div class="tp-ab-fact-area fact-overlay p-relative pt-120 pb-85"
-        data-background="assets/img/about/about-fact-bg.jpg">
+    <div class="tp-bs-cta-area pt-105 pb-120 theme-bg p-relative tp-ab-cta-overlay"
+        data-background="assets/img/cta/website.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-md-6">
                     <div class="ab-fact-item mb-30">
-                        <span class="counter-up">328</span>
+                        <span class="counter-up">150</span>
                         <h3 class="ab-fact-item__title"><a href="#">Successful projects</a></h3>
-                        <p>You every can't thing seed subdue
-                            subdue light female.</p>
+                        <!-- <p>You every can't thing seed subdue
+                            subdue light female.</p> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6">
                     <div class="ab-fact-item mb-30">
-                        <span class="counter-up">522</span>
+                        <span class="counter-up">120</span>
+                        <h3 class="ab-fact-item__title"><a href="#">Satisfied Clients</a></h3>
+                        <!-- <p>You every can't thing seed subdue
+                            subdue light female.</p> -->
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class="ab-fact-item mb-30">
+                        <span class="counter-up">2</span>
                         <h3 class="ab-fact-item__title"><a href="#">Years of exeperience</a></h3>
-                        <p>You every can't thing seed subdue
-                            subdue light female.</p>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="ab-fact-item mb-30">
-                        <span class="counter-up">1020</span>
-                        <h3 class="ab-fact-item__title"><a href="#">Cost of savings</a></h3>
-                        <p>You every can't thing seed subdue
-                            subdue light female.</p>
+                        <!-- <p>You every can't thing seed subdue
+                            subdue light female.</p> -->
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6">
                     <div class="ab-fact-item mb-30">
                         <span class="counter-up">256</span>
-                        <h3 class="ab-fact-item__title"><a href="#">Email leads generated</a></h3>
-                        <p>You every can't thing seed subdue
-                            subdue light female.</p>
+                        <h3 class="ab-fact-item__title"><a href="#">Full Time Staff</a></h3>
+                        <!-- <p>You every can't thing seed subdue
+                            subdue light female.</p> -->
                     </div>
                 </div>
             </div>
