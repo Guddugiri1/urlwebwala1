@@ -12,15 +12,15 @@
                     <div class="col-6 text-md-end">
                         <div class="bs-footer__top-social">
                             <span> <a style="background-color: #1877F2;"
-                                    href="https://www.facebook.com/profile.php?id=61559914845714&mibextid=JRoKGi"><i
+                                    href="https://www.facebook.com/share/18aStSgd8m/"><i
                                         class="fa fa-facebook"></i></a></span>
-                            <span> <a style="background-color: #1DA1F2;" href="https://x.com/qickstepout"><i
+                            <span> <a style="background-color: #1DA1F2;" href="#"><i
                                         class="fa fa-twitter"></i></a></span>
                             <span> <a style="background-color: #e1306c;"
-                                    href="https://www.instagram.com/Urlwebwala_official/"><i
+                                    href="https://www.instagram.com/urlwebwala?igsh=MXM1aTl3ZDhiN284eQ=="><i
                                         class="fa fa-instagram"></i></a></span>
                             <span> <a style="background-color: #0077B5;"
-                                    href="https://www.linkedin.com/company/103205719/"><i
+                                    href="https://www.linkedin.com/company/urlwebwala-pvt-ltd/"><i
                                         class="fa fa-linkedin"></i></a></span>
                         </div>
                     </div>
