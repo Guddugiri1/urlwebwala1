@@ -6,7 +6,7 @@
                     <div class="col-6">
                         <div class="bs-footer__top-logo">
                             <!--<img src="assets/img/logo/logo-no-background.png" style="width:100px;" alt="logo">-->
-                            <h4>UrlWebwala LLP</h4>
+                            <h4>Urlwebwala LLP</h4>
                         </div>
                     </div>
                     <div class="col-6 text-md-end">
@@ -140,7 +140,7 @@
                                 <div class="tp-copyrigh-text text-center text-md-start">
                                     <span>Copyright &amp; Design With &#10084;&#65039; By <a
                                             href="index.php">@Urlwebwala</a> -
-                                        2024, All Rights Reserved.</span>
+                                        2025, All Rights Reserved.</span>
                                 </div>
                             </div>
                             <div class="col-md-4 d-none d-md-block">

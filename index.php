@@ -468,113 +468,113 @@
             </div>
         </div>
         <style>
-        /* Overall container */
-        .unique-it-service {
-            padding: 60px 15px;
-        }
-
-        /* Section Title */
-        .unique-section__title {
-            font-size: 24px;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        .unique-section__subtitle {
-            display: inline-block;
-            padding: 5px 15px;
-            color: #ffffff;
-            background-color: #3498db;
-            border-radius: 25px;
-            font-size: 16px;
-        }
-
-        /* Scroll container (slider) */
-        .unique-scroll-container {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-        }
-
-        .unique-scroll-content {
-            display: flex;
-            gap: 20px;
-            animation: unique-auto-slide 20s linear infinite;
-        }
-
-        /* Service Item */
-        .unique-service-item {
-            flex: 0 0 auto;
-            width: 160px;
-            height: 160px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            perspective: 1000px;
-        }
-
-        /* 3D Box */
-        .unique-service-box {
-            width: 150px;
-            height: 150px;
-            background: #ffffff;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transform-style: preserve-3d;
-            transform: rotateY(0deg);
-            transition: transform 0.6s ease, box-shadow 0.3s ease;
-        }
-
-        .unique-service-box:hover {
-            transform: rotateY(20deg) rotateX(10deg);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
-        }
-
-        .unique-service-box img {
-            max-width: 80%;
-            max-height: 80%;
-            object-fit: contain;
-        }
-
-        /* Animation for continuous loop */
-        @keyframes unique-auto-slide {
-            0% {
-                transform: translateX(0%);
+            /* Overall container */
+            .unique-it-service {
+                padding: 60px 15px;
             }
 
-            100% {
-                transform: translateX(-50%);
-            }
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .unique-scroll-content {
-                gap: 10px;
-            }
-
-            .unique-service-item {
-                width: 120px;
-                height: 120px;
-            }
-
-            .unique-service-box {
-                width: 100px;
-                height: 100px;
-            }
-
+            /* Section Title */
             .unique-section__title {
-                font-size: 20px;
+                font-size: 24px;
+                color: #2c3e50;
+                margin-bottom: 10px;
+                font-weight: bold;
             }
 
             .unique-section__subtitle {
-                font-size: 14px;
+                display: inline-block;
+                padding: 5px 15px;
+                color: #ffffff;
+                background-color: #3498db;
+                border-radius: 25px;
+                font-size: 16px;
             }
-        }
+
+            /* Scroll container (slider) */
+            .unique-scroll-container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            .unique-scroll-content {
+                display: flex;
+                gap: 20px;
+                animation: unique-auto-slide 20s linear infinite;
+            }
+
+            /* Service Item */
+            .unique-service-item {
+                flex: 0 0 auto;
+                width: 160px;
+                height: 160px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                perspective: 1000px;
+            }
+
+            /* 3D Box */
+            .unique-service-box {
+                width: 150px;
+                height: 150px;
+                background: #ffffff;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform-style: preserve-3d;
+                transform: rotateY(0deg);
+                transition: transform 0.6s ease, box-shadow 0.3s ease;
+            }
+
+            .unique-service-box:hover {
+                transform: rotateY(20deg) rotateX(10deg);
+                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+            }
+
+            .unique-service-box img {
+                max-width: 80%;
+                max-height: 80%;
+                object-fit: contain;
+            }
+
+            /* Animation for continuous loop */
+            @keyframes unique-auto-slide {
+                0% {
+                    transform: translateX(0%);
+                }
+
+                100% {
+                    transform: translateX(-50%);
+                }
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .unique-scroll-content {
+                    gap: 10px;
+                }
+
+                .unique-service-item {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                .unique-service-box {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .unique-section__title {
+                    font-size: 20px;
+                }
+
+                .unique-section__subtitle {
+                    font-size: 14px;
+                }
+            }
         </style>
         <!-- Our Experties end  -->
 
@@ -815,113 +815,113 @@
             </div>
         </div>
         <style>
-        /* Overall container */
-        .unique-client-service {
-            padding: 60px 15px;
-        }
-
-        /* Section Title */
-        .unique-section__title {
-            font-size: 24px;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        .unique-section__subtitle {
-            display: inline-block;
-            padding: 5px 15px;
-            color: #ffffff;
-            background-color: #3498db;
-            border-radius: 25px;
-            font-size: 16px;
-        }
-
-        /* Scroll container (slider) */
-        .unique-scroll-container {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-        }
-
-        .unique-scroll-content {
-            display: flex;
-            gap: 20px;
-            animation: unique-auto-slide 20s linear infinite;
-        }
-
-        /* Client Item */
-        .unique-client-item {
-            flex: 0 0 auto;
-            width: 160px;
-            height: 160px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            perspective: 1000px;
-        }
-
-        /* 3D Box */
-        .unique-client-box {
-            width: 150px;
-            height: 150px;
-            background: #ffffff;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transform-style: preserve-3d;
-            transform: rotateY(0deg);
-            transition: transform 0.6s ease, box-shadow 0.3s ease;
-        }
-
-        .unique-client-box:hover {
-            transform: rotateY(20deg) rotateX(10deg);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
-        }
-
-        .unique-client-box img {
-            max-width: 80%;
-            max-height: 80%;
-            object-fit: contain;
-        }
-
-        /* Animation for continuous loop */
-        @keyframes unique-auto-slide {
-            0% {
-                transform: translateX(0%);
+            /* Overall container */
+            .unique-client-service {
+                padding: 60px 15px;
             }
 
-            100% {
-                transform: translateX(-50%);
-            }
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .unique-scroll-content {
-                gap: 10px;
-            }
-
-            .unique-client-item {
-                width: 120px;
-                height: 120px;
-            }
-
-            .unique-client-box {
-                width: 100px;
-                height: 100px;
-            }
-
+            /* Section Title */
             .unique-section__title {
-                font-size: 20px;
+                font-size: 24px;
+                color: #2c3e50;
+                margin-bottom: 10px;
+                font-weight: bold;
             }
 
             .unique-section__subtitle {
-                font-size: 14px;
+                display: inline-block;
+                padding: 5px 15px;
+                color: #ffffff;
+                background-color: #3498db;
+                border-radius: 25px;
+                font-size: 16px;
             }
-        }
+
+            /* Scroll container (slider) */
+            .unique-scroll-container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            .unique-scroll-content {
+                display: flex;
+                gap: 20px;
+                animation: unique-auto-slide 20s linear infinite;
+            }
+
+            /* Client Item */
+            .unique-client-item {
+                flex: 0 0 auto;
+                width: 160px;
+                height: 160px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                perspective: 1000px;
+            }
+
+            /* 3D Box */
+            .unique-client-box {
+                width: 150px;
+                height: 150px;
+                background: #ffffff;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform-style: preserve-3d;
+                transform: rotateY(0deg);
+                transition: transform 0.6s ease, box-shadow 0.3s ease;
+            }
+
+            .unique-client-box:hover {
+                transform: rotateY(20deg) rotateX(10deg);
+                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+            }
+
+            .unique-client-box img {
+                max-width: 80%;
+                max-height: 80%;
+                object-fit: contain;
+            }
+
+            /* Animation for continuous loop */
+            @keyframes unique-auto-slide {
+                0% {
+                    transform: translateX(0%);
+                }
+
+                100% {
+                    transform: translateX(-50%);
+                }
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .unique-scroll-content {
+                    gap: 10px;
+                }
+
+                .unique-client-item {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                .unique-client-box {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .unique-section__title {
+                    font-size: 20px;
+                }
+
+                .unique-section__subtitle {
+                    font-size: 14px;
+                }
+            }
         </style>
         <!--Clint Start-->
 
@@ -1050,6 +1050,49 @@
         </div>
         <!-- testimonial end  -->
 
+        <!---Clint count start -->
+        <div class="tp-bs-cta-area pt-105 pb-120 theme-bg p-relative tp-ab-cta-overlay"
+            data-background="assets/img/cta/website.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6">
+                        <div class="ab-fact-item mb-30">
+                            <span class="counter-up">150</span>
+                            <h3 class="ab-fact-item__title"><a href="#">Successful projects</a></h3>
+                            <!-- <p>You every can't thing seed subdue
+                            subdue light female.</p> -->
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="ab-fact-item mb-30">
+                            <span class="counter-up">120</span>
+                            <h3 class="ab-fact-item__title"><a href="#">Satisfied Clients</a></h3>
+                            <!-- <p>You every can't thing seed subdue
+                            subdue light female.</p> -->
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="ab-fact-item mb-30">
+                            <span class="counter-up">2</span>
+                            <h3 class="ab-fact-item__title"><a href="#">Years of exeperience</a></h3>
+                            <!-- <p>You every can't thing seed subdue
+                            subdue light female.</p> -->
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <div class="ab-fact-item mb-30">
+                            <span class="counter-up">256</span>
+                            <h3 class="ab-fact-item__title"><a href="#">Full Time Staff</a></h3>
+                            <!-- <p>You every can't thing seed subdue
+                            subdue light female.</p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- clinr count end -->
+
         <!--Blog Start-->
         <div class="unique-client-service pt-120 pb-90">
             <div class="container">
@@ -1057,14 +1100,176 @@
                     <div class="tp-section text-center">
                         <span class="tp-section__subtitle vogue-text-color white-bg mb-15 wow tpfadeUp"><i
                                 class="before-border"></i>
-                            Our Blogs <i class="after-border"></i></span>
-                        <h2 class="tp-section__title vogue-text-color wow tpfadeUp" data-wow-delay=".3s">Brands We Work
-                            With
+                            Latest News & Blogs <i class="after-border"></i></span>
+                        <h2 class="tp-section__title vogue-text-color wow tpfadeUp" data-wow-delay=".3s">What's New in
+                            the Business Area to Know
                         </h2>
+                        <p>Don’t focus on having a great blog. Focus on producing a blog that’s great for readers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-container">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <span class="blog-category tech">Technology</span>
+                        <img src="assets/img/about/Aboutus1.png" alt="Snowflake Data">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">📅 February 4, 2025</span>
+                            <span class="blog-comments">💬 0 Comments</span>
+                        </div>
+                        <h3 class="blog-title">TRANSFORMING BUSINESS DATA WITH SNOWFLAKE: A PRACTICAL GUIDE</h3>
+                        <p class="blog-description">Imagine running a large retail group with thousands of stores. Each
+                            day, you would obtain humongous amounts of data on...</p>
+                        <a href="#" class="blog-read-more">READ MORE <span>➡️</span></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <span class="blog-category web-dev">Web Development</span>
+                        <img src="assets/img/about/Aboutus1.png" alt="WordPress Plugins">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">📅 January 29, 2025</span>
+                            <span class="blog-comments">💬 0 Comments</span>
+                        </div>
+                        <h3 class="blog-title">5 POWERFUL WORDPRESS PLUGINS SHAPING THE DIGITAL EXPERIENCE</h3>
+                        <p class="blog-description">WordPress plugins have evolved as a highly effective way to improve
+                            website functionality without requiring any code...</p>
+                        <a href="#" class="blog-read-more">READ MORE <span>➡️</span></a>
+                    </div>
+                </div>
+
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <span class="blog-category tech">Technology</span>
+                        <img src="assets/img/about/Aboutus1.png" alt="AI Smart Glasses">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">📅 January 21, 2025</span>
+                            <span class="blog-comments">💬 0 Comments</span>
+                        </div>
+                        <h3 class="blog-title">THE ROLE OF AI-POWERED SMART GLASSES IN TELEMEDICINE</h3>
+                        <p class="blog-description">The healthcare industry is undergoing rapid change through
+                            technological breakthroughs. Among such innovations...</p>
+                        <a href="#" class="blog-read-more">READ MORE <span>➡️</span></a>
                     </div>
                 </div>
             </div>
         </div>
+
+        <style>
+            /* General Reset */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            /* Blog Container */
+            .blog-container {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                padding: 40px;
+                flex-wrap: wrap;
+            }
+
+            /* Blog Card */
+            .blog-card {
+                background: #fff;
+                width: 300px;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+                transition: transform 0.3s ease-in-out;
+            }
+
+            .blog-card:hover {
+                transform: translateY(-5px);
+            }
+
+            /* Blog Image */
+            .blog-image {
+                position: relative;
+                width: 100%;
+                height: 180px;
+            }
+
+            .blog-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            /* Category Badge */
+            .blog-category {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                background: orange;
+                color: white;
+                padding: 5px 10px;
+                font-size: 12px;
+                font-weight: bold;
+                border-radius: 15px;
+            }
+
+            /* Category Colors */
+            .tech {
+                background: #ff6b6b;
+            }
+
+            .web-dev {
+                background: #ff9800;
+            }
+
+            /* Blog Content */
+            .blog-content {
+                padding: 15px;
+            }
+
+            .blog-meta {
+                display: flex;
+                justify-content: space-between;
+                font-size: 12px;
+                color: #666;
+                margin-bottom: 10px;
+            }
+
+            .blog-title {
+                font-size: 16px;
+                font-weight: bold;
+                margin-bottom: 10px;
+                color: #333;
+            }
+
+            .blog-description {
+                font-size: 14px;
+                color: #555;
+                margin-bottom: 15px;
+            }
+
+            /* Read More Button */
+            .blog-read-more {
+                text-decoration: none;
+                color: #ff6b6b;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+
+            .blog-read-more span {
+                font-size: 14px;
+            }
+        </style>
+
         <!--Blog end-->
 
         <!-- faq area start  -->
@@ -1188,9 +1393,9 @@
                                     <span>Start your business journey better <br>
                                         with</span>
                                     <span class="cd-words-wrapper bs-cta-wrapper ca-cta-wrapper">
-                                        <b class="is-hidden"> UrlWebwala LLP</b>
-                                        <b class="is-visible">UrlWebwala LLP</b>
-                                        <b class="is-hidden">UrlWebwala LLP</b>
+                                        <b class="is-hidden"> Urlwebwala LLP</b>
+                                        <b class="is-visible">Urlwebwala LLP</b>
+                                        <b class="is-hidden">Urlwebwala LLP</b>
                                     </span>
 
                                 </h3>

@@ -8982,7 +8982,7 @@ xloading-bar
 
 @media (max-width: 767px) {
   .law-about-img-1 img {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 30px;
   }
 }
