@@ -14,13 +14,15 @@
                     <img src="assets/img/logo/urlwebwala.png" style="width:150px;" alt="logo">
                 </a>
             </div>
-            <p>we believe that every customer deserves a quality experience and we're committed to delivering just that.
+            <p>We believe that every customer deserves a quality experience and we're committed to delivering just that.
             </p>
             <div class="tp-offcanvas__social">
-                <span> <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></span>
-                <span> <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></span>
-                <span> <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></span>
-                <span> <a href="https://www.linkedin.com/in/"><i class="fab fa-linkedin "></i></a></span>
+                <span> <a href="https://www.facebook.com/share/18aStSgd8m/"><i class="fab fa-facebook-f"></i></a></span>
+                <span> <a href=""><i class="fab fa-twitter"></i></a></span>
+                <span> <a href="https://www.instagram.com/urlwebwala?igsh=MXM1aTl3ZDhiN284eQ=="><i
+                            class="fab fa-instagram"></i></a></span>
+                <span> <a href="https://www.linkedin.com/company/urlwebwala-pvt-ltd/"><i
+                            class="fab fa-linkedin "></i></a></span>
             </div>
         </div>
         <div class="tp-offcanvas__widget mb-40 d-none d-xl-block">
@@ -31,22 +33,21 @@
                 <span class="icon mr-20"><img src="assets/img/icons/ofp-phone.png" alt=""></span>
                 <span>
                     <span class="d-block mb-0">Phone number</span>
-                    <b><a href="tel:+916359433164> Call Us: +91 6359-433-164 </a></b>
-               </span>
+                    <b><a href="tel:+916359433164"> Call Us: +91 6359433164 </a></b>
+                </span>
             </div>
 
             <div class=" tp-offcanvas-cta d-flex align-items-center tp-border-bottom pb-20 mb-30">
-                            <span class="icon mr-20"><img src="assets/img/icons/ofc-mail-icon.png" alt=""></span>
-                            <span>
-                                <span class="d-block mb-0">Email address</span>
-                                <a href="mailto:mail.Urlwebwala@gmail.com"> mail.Urlwebwala@gmail.com </a></b>
+                <span class="icon mr-20"><img src="assets/img/icons/ofc-mail-icon.png" alt=""></span>
+                <span>
+                    <span class="d-block mb-0">Email address</span>
+                    <a href="mailto:mail.Urlwebwala@gmail.com"> urlwebwala@gmail.com </a></b>
                 </span>
             </div>
             <div class="tp-offcanvas-cta d-flex align-items-center pb-20  mb-30">
                 <span class="icon mr-20"><img src="assets/img/icons/ofc-locaiton.png" alt=""></span>
                 <span>
-                    <span class="d-block mb-0">C 512 Dev Aurum, Anand Nagar Cross Road, Prahlad Nagar, Ahmedabad -
-                        380015.</span>
+                    <span class="d-block mb-0">Ahemdabad Gujrat (382481)</span>
 
                 </span>
             </div>
@@ -57,7 +58,7 @@
             <p>Our team applies its wide ranging in
                 experience to determining.</p>
             <div class="tp-offcanvas-btn-wrapper">
-                <a href="contact.html" class="tp-common-btn">get in touch
+                <a href="contact.html" class="tp-common-btn">Get in touch
                     <span>
                         <i class="fal fa-long-arrow-right"></i>
                         <i class="fal fa-long-arrow-right"></i>

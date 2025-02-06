@@ -1,137 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--  created with sitemap generator https://octopus.do  -->
+    <!-- Created for Urlwebwala.com -->
 
     <url>
-        <loc>https://Urlwebwala.com/</loc>
+        <loc>https://urlwebwala.com/index.php</loc>
         <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
     </url>
+
     <url>
-        <loc>https://Urlwebwala.com/</loc>
+        <loc>https://urlwebwala.com/about.php</loc>
         <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
+
     <url>
-        <loc>https://Urlwebwala.com/</loc>
+        <loc>https://urlwebwala.com/services.php</loc>
         <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
+
     <url>
-        <loc>https://Urlwebwala.com/</loc>
+        <loc>https://urlwebwala.com/web_development.php</loc>
         <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
+
     <url>
-        <loc>https://Urlwebwala.com/</loc>
+        <loc>https://urlwebwala.com/mobile_app_development.php</loc>
         <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
+
     <url>
-        <loc>https://Urlwebwala.com/</loc>
+        <loc>https://urlwebwala.com/digital_marketing.php</loc>
         <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
     </url>
+
     <url>
-        <loc>https://Urlwebwala.com/</loc>
+        <loc>https://urlwebwala.com/portfolio.php</loc>
         <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
+
     <url>
-        <loc>https://Urlwebwala.com/</loc>
+        <loc>https://urlwebwala.com/blog.php</loc>
         <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
     </url>
+
     <url>
-        <loc>https://Urlwebwala.com/</loc>
+        <loc>https://urlwebwala.com/contact.php</loc>
         <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
     </url>
+
     <url>
-        <loc>https://Urlwebwala.com/</loc>
+        <loc>https://urlwebwala.com/privacy-policy.php</loc>
         <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <changefreq>yearly</changefreq>
+        <priority>0.4</priority>
     </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>https://Urlwebwala.com/</loc>
-        <lastmod>2024-06-15</lastmod>
-        <changefreq>always</changefreq>
-        <priority>0.5</priority>
-    </url>
+
 </urlset>

@@ -1,6 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -10,87 +9,72 @@
     <!-- Dynamic Page Title -->
     <title>
         <?php 
-    $pageTitle = "Urlwebwala | IT Services in Ahmedabad";
-    $end = basename($_SERVER['PHP_SELF']);
+        $pageTitle = "Urlwebwala | IT Services in Ahmedabad";
+        $end = basename($_SERVER['PHP_SELF']);
 
-    switch ($end) {
-        case 'index.php': 
-            $pageTitle = "Welcome to Urlwebwala LLP | IT Services in Ahmedabad"; break;
-        case 'about.php': 
-            $pageTitle = "About Urlwebwala LLP | Trusted IT Partner in Ahmedabad"; break;
-        case 'web_development.php': 
-            $pageTitle = "Web Development Services in Ahmedabad | Urlwebwala LLP"; break;
-        case 'services.php': 
-            $pageTitle = "Comprehensive IT Services in Ahmedabad | Urlwebwala LLP"; break;
-        case 'mobile_app_development.php': 
-            $pageTitle = "Mobile App Development in Ahmedabad | Urlwebwala LLP"; break;
-        case 'digital_marketing.php': 
-            $pageTitle = "Digital Marketing Services in Ahmedabad | Urlwebwala LLP"; break;
-        default:
-            $pageTitle = "Urlwebwala | IT Services in Ahmedabad";
-    }
-    echo $pageTitle;
-    ?>
+        $titles = [
+            'index.php' => "Urlwebwala LLP | IT & Web Development Services",
+            'about.php' => "About Urlwebwala LLP | Trusted IT Partner",
+            'web_development.php' => "Web Development Services | Urlwebwala LLP",
+            'services.php' => "Complete IT Services | Urlwebwala LLP",
+            'mobile_app_development.php' => "Mobile App Development | Urlwebwala LLP",
+            'digital_marketing.php' => "Digital Marketing | SEO & Ads | Urlwebwala LLP"
+        ];
+
+        if (isset($titles[$end])) {
+            $pageTitle = $titles[$end];
+        }
+        echo $pageTitle;
+        ?>
     </title>
 
-    <!-- Place favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/fev.png">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/logo/fev.png" type="image/x-icon">
 
+    <!-- Meta Description (120-160 Characters) -->
     <?php
-$metaData = [
-    'index.php' => [
-        "title" => "Welcome to Urlwebwala LLP | IT Services in Ahmedabad",
-        "description" => "Urlwebwala LLP provides web development, mobile apps, and digital marketing services in Ahmedabad. Grow your business with expert IT solutions.",
-    ],
-    'about.php' => [
-        "title" => "About Urlwebwala LLP | Trusted IT Partner in Ahmedabad",
-        "description" => "Learn more about Urlwebwala LLP, your trusted IT partner in Ahmedabad. We specialize in web solutions, mobile app development, and digital marketing.",
-    ],
-    'web_development.php' => [
-        "title" => "Web Development Services in Ahmedabad | Urlwebwala LLP",
-        "description" => "Professional web development services in Ahmedabad. We create fast, responsive, and SEO-optimized websites for businesses of all sizes.",
-    ],
-    'services.php' => [
-        "title" => "Comprehensive IT Services in Ahmedabad | Urlwebwala LLP",
-        "description" => "Discover comprehensive IT services at Urlwebwala LLP, including web and mobile app development, SEO, and graphic design. Based in Ahmedabad.",
-    ],
-    'mobile_app_development.php' => [
-        "title" => "Mobile App Development in Ahmedabad | Urlwebwala LLP",
-        "description" => "Develop high-quality mobile applications for Android and iOS with Urlwebwala LLP. Scalable and user-friendly app solutions for businesses.",
-    ],
-    'digital_marketing.php' => [
-        "title" => "Digital Marketing Services in Ahmedabad | Urlwebwala LLP",
-        "description" => "Boost your online presence with expert digital marketing services. We offer SEO, PPC, social media marketing, and content strategies in Ahmedabad.",
-    ]
-];
+    $metaDescriptions = [
+        'index.php' => "Urlwebwala LLP offers web development, mobile apps, and digital marketing in Ahmedabad. Boost your business with expert IT solutions.",
+        'about.php' => "Learn about Urlwebwala LLP, a trusted IT solutions provider in Ahmedabad, specializing in web development, apps, and digital marketing.",
+        'web_development.php' => "Get responsive, SEO-friendly web development in Ahmedabad. Urlwebwala LLP creates user-friendly websites for businesses.",
+        'services.php' => "Explore our IT services, including web development, mobile apps, and digital marketing. Elevate your brand with Urlwebwala LLP.",
+        'mobile_app_development.php' => "Build scalable mobile apps for Android & iOS with Urlwebwala LLP. Innovative solutions tailored for your business.",
+        'digital_marketing.php' => "SEO, PPC, and social media marketing from Urlwebwala LLP. Improve online visibility and grow your audience."
+    ];
 
-if (isset($metaData[$end])) {
-    echo '<meta name="title" content="'.$metaData[$end]['title'].'" />' . PHP_EOL;
-    echo '<meta name="description" content="'.$metaData[$end]['description'].'" />' . PHP_EOL;
-    echo '<meta property="og:title" content="'.$metaData[$end]['title'].'" />' . PHP_EOL;
-    echo '<meta property="og:description" content="'.$metaData[$end]['description'].'" />' . PHP_EOL;
-}
-?>
+    if (isset($metaDescriptions[$end])) {
+        echo '<meta name="description" content="'.$metaDescriptions[$end].'" />' . PHP_EOL;
+    }
+    ?>
 
-    <!-- Open Graph & Social Media Tags -->
-    <meta property="og:locale" content="en_US" />
+    <!-- Open Graph (Social Media Preview) -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.urlwebwala.com" />
     <meta property="og:site_name" content="Urlwebwala LLP" />
-    <meta property="og:image" itemprop="image" content="https://urlwebwala.com/assets/metalog.png">
-    <meta property="og:updated_time" content="<?php echo time(); ?>" />
+    <meta property="og:image" content="https://urlwebwala.com/assets/metalog.png" />
+    <meta property="og:title" content="<?php echo $pageTitle; ?>" />
+    <meta property="og:description"
+        content="<?php echo $metaDescriptions[$end] ?? 'Leading IT services provider in Ahmedabad.'; ?>" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.urlwebwala.com" />
 
-    <!-- Schema.org Structured Data -->
+    <!-- Schema.org Structured Data (Local Business) -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Organization",
+        "@type": "LocalBusiness",
         "name": "Urlwebwala LLP",
         "url": "https://www.urlwebwala.com",
         "logo": "https://urlwebwala.com/assets/metalog.png",
+        "image": "https://urlwebwala.com/assets/metalog.png",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Ahmedabad, Gujarat",
+            "addressLocality": "Ahmedabad",
+            "postalCode": "382481",
+            "addressCountry": "IN"
+        },
         "contactPoint": {
             "@type": "ContactPoint",
             "telephone": "+91 6359433164",
@@ -99,8 +83,7 @@ if (isset($metaData[$end])) {
     }
     </script>
 
-    <!-- Google Analytics -->
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics & Google Tag Manager -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZ5QVDBENP"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -109,11 +92,8 @@ if (isset($metaData[$end])) {
         dataLayer.push(arguments);
     }
     gtag('js', new Date());
-
     gtag('config', 'G-NZ5QVDBENP');
     </script>
-
-
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -285,7 +265,7 @@ if (isset($metaData[$end])) {
                 <p>Our team applies its wide ranging in
                     experience to determining.</p>
                 <div class="tp-offcanvas-btn-wrapper">
-                    <a href="contact.html" class="tp-common-btn">get in touch
+                    <a href="contact.html" class="tp-common-btn">Get in touch
                         <span>
                             <i class="fal fa-long-arrow-right"></i>
                             <i class="fal fa-long-arrow-right"></i>
