@@ -9,7 +9,7 @@
     <!-- Dynamic Page Title -->
     <title>
         <?php 
-        $pageTitle = "Urlwebwala | IT Services in Ahmedabad";
+        $pageTitle = "Urlwebwala | IT Services in Ahmedabad"; // Default title
         $end = basename($_SERVER['PHP_SELF']);
 
         $titles = [
@@ -24,7 +24,7 @@
         if (isset($titles[$end])) {
             $pageTitle = $titles[$end];
         }
-        echo $pageTitle;
+        echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); // Prevents HTML injection
         ?>
     </title>
 
@@ -42,9 +42,8 @@
         'digital_marketing.php' => "SEO, PPC, and social media marketing from Urlwebwala LLP. Improve online visibility and grow your audience."
     ];
 
-    if (isset($metaDescriptions[$end])) {
-        echo '<meta name="description" content="'.$metaDescriptions[$end].'" />' . PHP_EOL;
-    }
+    $metaDescription = $metaDescriptions[$end] ?? "Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing."; // Default description
+    echo '<meta name="description" content="'.htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8').'" />' . PHP_EOL;
     ?>
 
     <!-- Open Graph (Social Media Preview) -->
@@ -52,9 +51,8 @@
     <meta property="og:url" content="https://www.urlwebwala.com" />
     <meta property="og:site_name" content="Urlwebwala LLP" />
     <meta property="og:image" content="https://urlwebwala.com/assets/metalog.png" />
-    <meta property="og:title" content="<?php echo $pageTitle; ?>" />
-    <meta property="og:description"
-        content="<?php echo $metaDescriptions[$end] ?? 'Leading IT services provider in Ahmedabad.'; ?>" />
+    <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>" />
+    <meta property="og:description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>" />
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.urlwebwala.com" />
@@ -94,6 +92,8 @@
     gtag('js', new Date());
     gtag('config', 'G-NZ5QVDBENP');
     </script>
+
+
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
