@@ -5,7 +5,7 @@
                 <div class="row align-items-center">
                     <div class="col-6">
                         <div class="bs-footer__top-logo">
-                            <!--<img src="assets/img/logo/logo-no-background.png" style="width:100px;" alt="logo">-->
+                            <!-- <img src="assets/img/logo/urlwebwala.png" style="width:100px;" alt="logo"> -->
                             <h4>Urlwebwala LLP</h4>
                         </div>
                     </div>
@@ -43,13 +43,13 @@
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-                            <a href="https://clutch.co/" target="_blank">
+                            <a href="" target="_blank">
                                 <img src="assets/img/logo/clutch-5.png" class="img-fluid" alt="Clutch Review"
                                     style="max-width: 120px;">
                             </a>
                         </div>
                         <div class="col-lg-3 col-md-4 col-sm-6 col-6 mb-4">
-                            <a href="https://www.glassdoor.com/" target="_blank">
+                            <a href="" target="_blank">
                                 <img src="assets/img/logo/glassdoor.webp" class="img-fluid" alt="Glassdoor Review"
                                     style="max-width: 130px;">
                             </a>
@@ -139,7 +139,7 @@
                             <div class="col-md-8 col-12">
                                 <div class="tp-copyrigh-text text-center text-md-start">
                                     <span>Copyright &amp; Design With &#10084;&#65039; By <a
-                                            href="index.php">@Urlwebwala</a> -
+                                            href="www.urlwebwala.com">@Urlwebwala</a> -
                                         2025, All Rights Reserved.</span>
                                 </div>
                             </div>

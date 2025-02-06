@@ -10,8 +10,8 @@
                 <span><i class="fal fa-times"></i></span>
             </div>
             <div class="tp-offcanvas__logo mb-50">
-                <a href="index-2.html">
-                    <img src="assets/img/logo/logo-no-background.png" style="width:150px;" alt="logo">
+                <a href="index.php">
+                    <img src="assets/img/logo/urlwebwala.png" style="width:150px;" alt="logo">
                 </a>
             </div>
             <p>we believe that every customer deserves a quality experience and we're committed to delivering just that.
