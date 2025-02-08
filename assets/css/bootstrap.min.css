@@ -1515,7 +1515,7 @@ progress {
   }
   .col-xxl-3 {
     flex: 0 0 auto;
-    width: 25%;
+    width: 33%;
   }
   .col-xxl-4 {
     flex: 0 0 auto;
@@ -3001,15 +3001,25 @@ fieldset:disabled .btn {
   background-color: #212529;
   border-color: #212529;
 }
-.btn-outline-primary {
-  color: #0d6efd;
-  border-color: #0d6efd;
+:root {
+  --tp-theme-orange: #ff6600;
 }
+
+.btn-outline-primary {
+  color: #212529;
+  border-color: #0d6efd;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #0d6efd;
+  background-color: var(--tp-theme-orange);
   border-color: #0d6efd;
 }
+
 .btn-check:focus + .btn-outline-primary,
 .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);

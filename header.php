@@ -182,9 +182,7 @@
                                         <li>
                                             <a href="contact.php">Contact Us</a>
                                         </li>
-                                        <!-- <li>
-                                                <a href="team.php">Admin</a>
-                                            </li> -->
+                                        <button type="button" class="btn btn-outline-primary">Free Consult</button>
                                         </ul>
 
                                     </nav>
