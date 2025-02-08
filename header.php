@@ -10,7 +10,7 @@
     <title>
         <?php 
         $pageTitle = "Urlwebwala | IT Services in Ahmedabad"; // Default title
-        $end = basename($_SERVER['PHP_SELF']);
+        $end = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)); // More reliable method
 
         $titles = [
             'index.php' => "Urlwebwala LLP | IT & Web Development Services",
@@ -21,17 +21,14 @@
             'digital_marketing.php' => "Digital Marketing | SEO & Ads | Urlwebwala LLP"
         ];
 
-        if (isset($titles[$end])) {
+        if (array_key_exists($end, $titles)) {
             $pageTitle = $titles[$end];
         }
-        echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); // Prevents HTML injection
+        echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8');
         ?>
     </title>
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/img/logo/fev.png" type="image/x-icon">
-
-    <!-- Meta Description (120-160 Characters) -->
+    <!-- Meta Description -->
     <?php
     $metaDescriptions = [
         'index.php' => "Urlwebwala LLP offers web development, mobile apps, and digital marketing in Ahmedabad. Boost your business with expert IT solutions.",
@@ -42,22 +39,22 @@
         'digital_marketing.php' => "SEO, PPC, and social media marketing from Urlwebwala LLP. Improve online visibility and grow your audience."
     ];
 
-    $metaDescription = $metaDescriptions[$end] ?? "Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing."; // Default description
-    echo '<meta name="description" content="'.htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8').'" />' . PHP_EOL;
+    $metaDescription = $metaDescriptions[$end] ?? "Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.";
     ?>
+    <meta name="description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>">
 
-    <!-- Open Graph (Social Media Preview) -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.urlwebwala.com" />
-    <meta property="og:site_name" content="Urlwebwala LLP" />
-    <meta property="og:image" content="https://urlwebwala.com/assets/metalog.png" />
-    <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>" />
-    <meta property="og:description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.urlwebwala.com">
+    <meta property="og:site_name" content="Urlwebwala LLP">
+    <meta property="og:image" content="https://urlwebwala.com/assets/metalog.png">
+    <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.urlwebwala.com" />
+    <link rel="canonical" href="https://www.urlwebwala.com">
 
-    <!-- Schema.org Structured Data (Local Business) -->
+    <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -81,7 +78,7 @@
     }
     </script>
 
-    <!-- Google Analytics & Google Tag Manager -->
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZ5QVDBENP"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -93,15 +90,13 @@
     gtag('config', 'G-NZ5QVDBENP');
     </script>
 
-
-
-    <!-- CSS here -->
+    <!-- CSS Files -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
     <link rel="stylesheet" href="assets/css/meanmenu.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
-
+    <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -110,6 +105,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
+
 
 <body>
 
