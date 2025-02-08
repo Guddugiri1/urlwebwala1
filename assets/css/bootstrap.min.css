@@ -1515,7 +1515,7 @@ progress {
   }
   .col-xxl-3 {
     flex: 0 0 auto;
-    width: 30%;
+    width: 33%;
   }
   .col-xxl-4 {
     flex: 0 0 auto;
@@ -3002,7 +3002,7 @@ fieldset:disabled .btn {
   border-color: #212529;
 }
 :root {
-  --tp-theme-orange: #ff6600;
+  --tp-theme-orange: #ff6600; /* Define your orange color */
 }
 
 .btn-outline-primary {

@@ -182,7 +182,7 @@
                                         <li>
                                             <a href="contact.php">Contact Us</a>
                                         </li>
-                                        <button type="button" class="btn btn-outline-primary">Free Consult</button>
+                                        <!-- <button type="button" class="btn btn-outline-primary">BOOK DEMO</button> -->
                                         </ul>
 
                                     </nav>
