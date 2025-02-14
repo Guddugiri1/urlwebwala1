@@ -1,9 +1,10 @@
+Options +FollowSymLinks
 RewriteEngine On
 RewriteBase /
 
 # Redirect index.php to main domain
 
-RewriteCond %{THE_REQUEST} /index\.php [NC]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index\.php [NC]
 RewriteRule ^index\.php$ https://www.urlwebwala.com/ [R=301,L]
 
 # Remove .php extension and redirect
@@ -15,6 +16,11 @@ RewriteRule ^(.+)\.php$ /$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.\*)$ $1.php [L]
+
+# Canonical redirect for all pages
+
+RewriteCond %{HTTP_HOST} ^urlwebwala\.com [NC]
+RewriteRule ^(.\*)$ https://www.urlwebwala.com/$1 [R=301,L]
 
 # Handle requests for specific pages
 
@@ -32,3 +38,10 @@ RewriteRule ^hosting$ hosting.php [L]
 RewriteRule ^support$ support.php [L]
 RewriteRule ^portfolio$ portfolio.php [L]
 RewriteRule ^contact$ contact.php [L]
+
+# Add canonical meta tag dynamically through PHP
+
+<IfModule mod_rewrite.c>
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^(.*)$ - [E=CANONICAL_URL:https://www.urlwebwala.com/$1]
+</IfModule>

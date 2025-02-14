@@ -110,13 +110,19 @@
 <body>
 
     <header>
+
+        <?php
+if (isset($_SERVER['REDIRECT_CANONICAL_URL'])) {
+    echo '<link rel="canonical" href="'.$_SERVER['REDIRECT_CANONICAL_URL'].'" />';
+}
+?>
         <div class="tp-header__1 theme-bg p-relative">
             <div id="header-sticky" class="tp-header__1-main header-border-button pl-105 pr-105">
                 <div class="container-fluid">
                     <div class="mega-menu-wrapper">
                         <div class="row align-items-center">
                             <div class="col-xxl-3 col-xl-2 col-6">
-                                <div class="logo border-right">
+                                <div class="logo border-right" style="margin-left: 20px; width: 350px;">
                                     <a href="#">
                                         <img src="assets/img/logo/urlwebwala.png" style="width:215px;" alt="logo">
                                     </a>
@@ -200,6 +206,50 @@
             </div>
         </div>
     </header>
+
+    <style>
+    @media (max-width: 1400px) and (min-width: 1200px) {
+        .tp-header__1-main {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+        }
+
+        .logo img {
+            width: 180px !important;
+        }
+
+        .main-menu nav ul li a {
+            font-size: 14px !important;
+            padding: 8px 12px !important;
+        }
+
+        .mega-menu-wrapper .row.align-items-center {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+
+        .col-xxl-3,
+        .col-xl-2,
+        .col-6 {
+            flex: 0 0 auto;
+            width: auto !important;
+        }
+
+        .col-xxl-8,
+        .col-xl-8 {
+            flex: 1 1 auto;
+            text-align: left;
+        }
+
+        .tp-header__1-right {
+            flex: 0 0 auto;
+            justify-content: flex-end !important;
+        }
+    }
+    </style>
+
+
 
     <div class="tp-offcanvas-wrapper">
         <div class="tp-offcanvas white-bg">
