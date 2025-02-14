@@ -1,5 +1,12 @@
 <?php include('header.php');?>
 
+<head>
+    <title>Urlwebwala LLP | IT & Web Development Services</title>
+    <meta name="description"
+        content="Urlwebwala LLP offers web development, mobile apps, and digital marketing in Ahmedabad. Boost your business with expert IT solutions.">
+    <link rel="canonical" href="https://www.urlwebwala.com/" />
+</head>
+
 
 <!-- back to top end  -->
 <main>

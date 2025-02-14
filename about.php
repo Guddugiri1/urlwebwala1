@@ -1,5 +1,11 @@
 <?php include('header.php');?>
 
+<head>
+    <title>About Urlwebwala LLP | Trusted IT Partner</title>
+    <meta name="description"
+        content="Learn about Urlwebwala LLP, a trusted IT solutions provider in Ahmedabad, specializing in web development, apps, and digital marketing.">
+    <link rel="canonical" href="https://www.urlwebwala.com/about" />
+</head>
 
 <!-- off canvas area  -->
 <main>

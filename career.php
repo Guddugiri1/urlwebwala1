@@ -1,5 +1,12 @@
 <?php include('header.php'); ?>
 
+<head>
+    <title>Career Opportunities | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Join Urlwebwala LLP and grow your career in IT services. Explore opportunities in web development, digital marketing, and more.">
+    <link rel="canonical" href="https://www.urlwebwala.com/career" />
+</head>
+
 <!-- Off canvas area -->
 <main>
     <!-- Breadcrumb area start -->
