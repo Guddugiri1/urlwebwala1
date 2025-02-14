@@ -1,18 +1,34 @@
 RewriteEngine On
 RewriteBase /
 
-# Redirect index.php to homepage
+# Redirect index.php to main domain
 
-RewriteCond %{THE_REQUEST} index\.php [NC]
+RewriteCond %{THE_REQUEST} /index\.php [NC]
 RewriteRule ^index\.php$ https://www.urlwebwala.com/ [R=301,L]
 
-# Redirect specific pages to homepage
+# Remove .php extension and redirect
 
-RewriteCond %{THE_REQUEST} (about|career|developmentprocess|services|web_development|mobile_app_development|digital_marketing|graphics|testing|digital_card|hosting|support|portfolio|contact)\.php [NC]
-RewriteRule ^(about|career|developmentprocess|services|web_development|mobile_app_development|digital_marketing|graphics|testing|digital_card|hosting|support|portfolio|contact)\.php$ https://www.urlwebwala.com/ [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+([^.]+)\.php [NC]
+RewriteRule ^(.+)\.php$ /$1 [R=301,L]
 
-# Handle other requests
+# Internally map requests without .php to actual .php files
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.\*)$ $1.php [L]
+
+# Handle requests for specific pages
+
+RewriteRule ^about$ about.php [L]
+RewriteRule ^career$ career.php [L]
+RewriteRule ^developmentprocess$ developmentprocess.php [L]
+RewriteRule ^services$ services.php [L]
+RewriteRule ^web_development$ web_development.php [L]
+RewriteRule ^mobile_app_development$ mobile_app_development.php [L]
+RewriteRule ^digital_marketing$ digital_marketing.php [L]
+RewriteRule ^graphics$ graphics.php [L]
+RewriteRule ^testing$ testing.php [L]
+RewriteRule ^digital_card$ digital_card.php [L]
+RewriteRule ^hosting$ hosting.php [L]
+RewriteRule ^support$ support.php [L]
+RewriteRule ^portfolio$ portfolio.php [L]
+RewriteRule ^contact$ contact.php [L]
