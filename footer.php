@@ -139,7 +139,7 @@
                             <div class="col-md-8 col-12">
                                 <div class="tp-copyrigh-text text-center text-md-start">
                                     <span>Copyright &amp; Design With &#10084;&#65039; By <a
-                                            href="www.urlwebwala.com">@Urlwebwala</a> -
+                                            href="https://www.urlwebwala.com">@Urlwebwala</a> -
                                         2025, All Rights Reserved.</span>
                                 </div>
                             </div>
