@@ -1,4 +1,6 @@
 <?php include('header.php');?>
+<link rel="canonical" href="https://www.urlwebwala.com/hosting" />
+
 
 <div class="body-overlay"></div>
 

@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+<link rel="canonical" href="https://www.urlwebwala.com/career" />
 
 <!-- Off canvas area -->
 <main>

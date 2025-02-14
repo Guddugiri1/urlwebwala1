@@ -1,5 +1,7 @@
 <?php include('header.php');?>
 <!-- off canvas area  -->
+ <link rel="canonical" href="https://www.urlwebwala.com/developmentprocess" />
+
 <main>
     <!-- breadcrumb area start -->
     <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.png">

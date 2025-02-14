@@ -1,4 +1,6 @@
 <?php include('header.php'); ?>
+ <link rel="canonical" href="https://www.urlwebwala.com/digital_card" />
+
 
 <div class="body-overlay"></div>
 <!-- back to top start  -->

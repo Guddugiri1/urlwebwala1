@@ -1,4 +1,5 @@
 <?php include('header.php');?>
+<link rel="canonical" href="https://www.urlwebwala.com/graphics" />
 
 <div class="body-overlay"></div>
 <!-- back to top start  -->
