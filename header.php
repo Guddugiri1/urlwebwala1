@@ -52,7 +52,7 @@
     <meta property="og:description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.urlwebwala.com">
+    <!-- <link rel="canonical" href="https://www.urlwebwala.com"> -->
     <link rel="canonical" href="https://www.urlwebwala.com/about" />
     <link rel="canonical" href="https://www.urlwebwala.com/career" />
     <link rel="canonical" href="https://www.urlwebwala.com/developmentprocess" />
