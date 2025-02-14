@@ -1,5 +1,12 @@
 <?php include('header.php');?>
 
+<head>
+    <title>Digital Marketing | SEO & Ads | Urlwebwala LLP</title>
+    <meta name="description"
+        content="SEO, PPC, and social media marketing from Urlwebwala LLP. Improve online visibility and grow your audience.">
+    <link rel="canonical" href="https://www.urlwebwala.com/digital_marketing" />
+</head>
+
 
 <div class="body-overlay"></div>
 <!-- back to top start  -->

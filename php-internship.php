@@ -1,5 +1,12 @@
 <?php include('header.php');?>
 
+<head>
+    <title>PHP Internship | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Join our PHP internship program at Urlwebwala LLP and gain hands-on experience in real-world web development projects.">
+    <link rel="canonical" href="https://www.urlwebwala.com/php-internship" />
+</head>
+
 
 
 <div class="body-overlay"></div>

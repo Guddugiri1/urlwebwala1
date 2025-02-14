@@ -1,5 +1,12 @@
 <?php include('header.php');?>
 
+<head>
+    <title>Mobile App Development | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Build scalable mobile apps for Android & iOS with Urlwebwala LLP. Innovative solutions tailored for your business.">
+    <link rel="canonical" href="https://www.urlwebwala.com/mobile_app_development" />
+</head>
+
 
 <div class="body-overlay"></div>
 <!-- back to top start  -->

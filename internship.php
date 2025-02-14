@@ -1,5 +1,12 @@
 <?php include('header.php');?>
 
+<head>
+    <title>Internship Opportunities | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Kickstart your IT career with an internship at Urlwebwala LLP. Gain hands-on experience in web development, mobile apps, and digital marketing.">
+    <link rel="canonical" href="https://www.urlwebwala.com/internship" />
+</head>
+
 
 <!-- off canvas area  -->
 <main>

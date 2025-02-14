@@ -1,6 +1,13 @@
 <?php include('header.php');?>
 <!-- off canvas area  -->
 
+<head>
+    <title>Our Development Process | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Learn about our step-by-step web and app development process at Urlwebwala LLP. Quality, security, and performance guaranteed.">
+    <link rel="canonical" href="https://www.urlwebwala.com/developmentprocess" />
+</head>
+
 <main>
     <!-- breadcrumb area start -->
     <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.png">

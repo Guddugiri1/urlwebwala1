@@ -1,5 +1,11 @@
 <?php include('header.php');?>
 
+<head>
+    <title>Flutter Internship | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Join our Flutter internship program at Urlwebwala LLP and learn to build cross-platform mobile applications.">
+    <link rel="canonical" href="https://www.urlwebwala.com/flutter-internship" />
+</head>
 
 
 <div class="body-overlay"></div>

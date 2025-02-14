@@ -1,5 +1,11 @@
 <?php include('header.php');?>
 
+<head>
+    <title>ReactJS Internship | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Learn ReactJS development with hands-on experience in our internship program at Urlwebwala LLP.">
+    <link rel="canonical" href="https://www.urlwebwala.com/reactJS-internship" />
+</head>
 
 
 <div class="body-overlay"></div>

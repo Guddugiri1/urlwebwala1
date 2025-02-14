@@ -1,5 +1,12 @@
 <?php include('header.php');?>
 
+<head>
+    <title>Creative Graphic Design Services | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Get professional graphic design services for your brand, including logos, branding, and UI/UX design from Urlwebwala LLP.">
+    <link rel="canonical" href="https://www.urlwebwala.com/graphics" />
+</head>
+
 <div class="body-overlay"></div>
 <!-- back to top start  -->
 <a href="#main-wrapper" id="tp-backto-top" class="tp-back-to-top show">

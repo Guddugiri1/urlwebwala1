@@ -1,5 +1,12 @@
 <?php include('header.php');?>
 
+<head>
+    <title>NodeJS Internship | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Kickstart your NodeJS development career with our hands-on internship program at Urlwebwala LLP.">
+    <link rel="canonical" href="https://www.urlwebwala.com/nodeJS-internship" />
+</head>
+
 
 
 <div class="body-overlay"></div>

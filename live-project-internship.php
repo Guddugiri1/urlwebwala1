@@ -1,5 +1,12 @@
 <?php include('header.php');?>
 
+<head>
+    <title>Live Project Internship | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Gain real-world experience with live project internships at Urlwebwala LLP. Learn and work on actual client projects.">
+    <link rel="canonical" href="https://www.urlwebwala.com/live-project-internship" />
+</head>
+
 
 <!-- off canvas area  -->
 <main>

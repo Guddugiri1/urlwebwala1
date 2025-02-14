@@ -1,5 +1,12 @@
 <?php include('header.php');?>
 
+<head>
+    <title>Android Internship | Urlwebwala LLP</title>
+    <meta name="description"
+        content="Gain expertise in Android app development with our internship program at Urlwebwala LLP.">
+    <link rel="canonical" href="https://www.urlwebwala.com/android-internship" />
+</head>
+
 
 <div class="body-overlay"></div>
 <!-- back to top start  -->
