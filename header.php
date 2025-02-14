@@ -54,7 +54,8 @@ $metaDescription = $metaDescriptions[$end] ?? "Urlwebwala LLP provides IT soluti
 
     <!-- Canonical URL (Now Dynamic & Fixed for Home) -->
     <link rel="canonical"
-        href="https://www.urlwebwala.com<?php echo ($end === 'index') ? '/' : '/' . trim($end, '/'); ?>">
+        href="https://www.urlwebwala.com<?php echo ($end === '' || $end === 'index') ? '/' : '/' . htmlspecialchars($end, ENT_QUOTES, 'UTF-8'); ?>">
+
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
