@@ -9,52 +9,72 @@
     <!-- Dynamic Page Title -->
     <title>
         <?php 
-    $pageTitle = "Urlwebwala | IT Services in Ahmedabad"; // Default title
-    $end = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/'); // More reliable method
+        $pageTitle = "Urlwebwala | IT Services in Ahmedabad"; // Default title
+        $end = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)); // More reliable method
 
-    $titles = [
-        'index' => "Urlwebwala LLP | IT & Web Development Services",
-        'about' => "About Urlwebwala LLP | Trusted IT Partner",
-        'web_development' => "Web Development Services | Urlwebwala LLP",
-        'services' => "Complete IT Services | Urlwebwala LLP",
-        'mobile_app_development' => "Mobile App Development | Urlwebwala LLP",
-        'digital_marketing' => "Digital Marketing | SEO & Ads | Urlwebwala LLP"
-    ];
+        $titles = [
+            'index.php' => "Urlwebwala LLP | IT & Web Development Services",
+            'about.php' => "About Urlwebwala LLP | Trusted IT Partner",
+            'web_development.php' => "Web Development Services | Urlwebwala LLP",
+            'services.php' => "Complete IT Services | Urlwebwala LLP",
+            'mobile_app_development.php' => "Mobile App Development | Urlwebwala LLP",
+            'digital_marketing.php' => "Digital Marketing | SEO & Ads | Urlwebwala LLP"
+        ];
 
-    if (isset($titles[$end])) {
-        $pageTitle = $titles[$end];
-    }
-    echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8');
-    ?>
+        if (array_key_exists($end, $titles)) {
+            $pageTitle = $titles[$end];
+        }
+        echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8');
+        ?>
     </title>
 
     <!-- Meta Description -->
     <?php
-$metaDescriptions = [
-    'index' => "Urlwebwala LLP offers web development, mobile apps, and digital marketing in Ahmedabad. Boost your business with expert IT solutions.",
-    'about' => "Learn about Urlwebwala LLP, a trusted IT solutions provider in Ahmedabad, specializing in web development, apps, and digital marketing.",
-    'web_development' => "Get responsive, SEO-friendly web development in Ahmedabad. Urlwebwala LLP creates user-friendly websites for businesses.",
-    'services' => "Explore our IT services, including web development, mobile apps, and digital marketing. Elevate your brand with Urlwebwala LLP.",
-    'mobile_app_development' => "Build scalable mobile apps for Android & iOS with Urlwebwala LLP. Innovative solutions tailored for your business.",
-    'digital_marketing' => "SEO, PPC, and social media marketing from Urlwebwala LLP. Improve online visibility and grow your audience."
-];
+    $metaDescriptions = [
+        'index.php' => "Urlwebwala LLP offers web development, mobile apps, and digital marketing in Ahmedabad. Boost your business with expert IT solutions.",
+        'about.php' => "Learn about Urlwebwala LLP, a trusted IT solutions provider in Ahmedabad, specializing in web development, apps, and digital marketing.",
+        'web_development.php' => "Get responsive, SEO-friendly web development in Ahmedabad. Urlwebwala LLP creates user-friendly websites for businesses.",
+        'services.php' => "Explore our IT services, including web development, mobile apps, and digital marketing. Elevate your brand with Urlwebwala LLP.",
+        'mobile_app_development.php' => "Build scalable mobile apps for Android & iOS with Urlwebwala LLP. Innovative solutions tailored for your business.",
+        'digital_marketing.php' => "SEO, PPC, and social media marketing from Urlwebwala LLP. Improve online visibility and grow your audience."
+    ];
 
-$metaDescription = $metaDescriptions[$end] ?? "Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.";
-?>
+    $metaDescription = $metaDescriptions[$end] ?? "Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.";
+    ?>
     <meta name="description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
-    <meta property="og:url"
-        content="https://www.urlwebwala.com<?php echo ($end === 'index') ? '/' : '/' . trim($end, '/'); ?>">
+    <meta property="og:url" content="https://www.urlwebwala.com">
     <meta property="og:site_name" content="Urlwebwala LLP">
     <meta property="og:image" content="https://urlwebwala.com/assets/metalog.png">
     <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>">
 
-    <!-- Canonical URL (Now Dynamic & Fixed for Home) -->
-    <link rel="canonical"
-        href="https://www.urlwebwala.com<?php echo ($end === '' || $end === 'index') ? '/' : '/' . htmlspecialchars($end, ENT_QUOTES, 'UTF-8'); ?>">
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.urlwebwala.com">
+    <link rel="canonical" href="https://www.urlwebwala.com/about" />
+    <link rel="canonical" href="https://www.urlwebwala.com/career" />
+    <link rel="canonical" href="https://www.urlwebwala.com/developmentprocess" />
+    <link rel="canonical" href="https://www.urlwebwala.com/services" />
+    <link rel="canonical" href="https://www.urlwebwala.com/index" />
+    <link rel="canonical" href="https://www.urlwebwala.com/hosting" />
+    <link rel="canonical" href="https://www.urlwebwala.com/digital_card" />
+    <link rel="canonical" href="https://www.urlwebwala.com/portfolio" />
+    <link rel="canonical" href="https://www.urlwebwala.com/php-internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/nodeJS-internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/mobile_app_development" />
+    <link rel="canonical" href="https://www.urlwebwala.com/live-project-internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/digital_marketing" />
+    <link rel="canonical" href="https://www.urlwebwala.com/flutter-internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/graphics" />
+    <link rel="canonical" href="https://www.urlwebwala.com/android-internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/contact" />
+    <link rel="canonical" href="https://www.urlwebwala.com/reactJS-internship" />
+
+
+
 
 
     <!-- Schema.org Structured Data -->
