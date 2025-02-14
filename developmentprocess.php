@@ -1,6 +1,5 @@
 <?php include('header.php');?>
 <!-- off canvas area  -->
- <link rel="canonical" href="https://www.urlwebwala.com/developmentprocess" />
 
 <main>
     <!-- breadcrumb area start -->

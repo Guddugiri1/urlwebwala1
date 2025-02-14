@@ -53,6 +53,27 @@
 
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.urlwebwala.com">
+    <link rel="canonical" href="https://www.urlwebwala.com/about" />
+    <link rel="canonical" href="https://www.urlwebwala.com/career" />
+    <link rel="canonical" href="https://www.urlwebwala.com/developmentprocess" />
+    <link rel="canonical" href="https://www.urlwebwala.com/services" />
+    <link rel="canonical" href="https://www.urlwebwala.com/index" />
+    <link rel="canonical" href="https://www.urlwebwala.com/hosting" />
+    <link rel="canonical" href="https://www.urlwebwala.com/digital_card" />
+    <link rel="canonical" href="https://www.urlwebwala.com/portfolio" />
+    <link rel="canonical" href="https://www.urlwebwala.com/php-internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/nodeJS-internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/mobile_app_development" />
+    <link rel="canonical" href="https://www.urlwebwala.com/live-project-internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/digital_marketing" />
+    <link rel="canonical" href="https://www.urlwebwala.com/flutter-internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/graphics" />
+    <link rel="canonical" href="https://www.urlwebwala.com/android-internship" />
+    <link rel="canonical" href="https://www.urlwebwala.com/contact" />
+    <link rel="canonical" href="https://www.urlwebwala.com/reactJS-internship" />
+
+
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">

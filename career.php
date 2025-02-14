@@ -1,5 +1,4 @@
 <?php include('header.php'); ?>
-<link rel="canonical" href="https://www.urlwebwala.com/career" />
 
 <!-- Off canvas area -->
 <main>
@@ -90,43 +89,43 @@
 
     <!-- Style Section -->
     <style>
-        .why-urlwebwala {
-            padding: 20px;
-            margin-top: 20px;
-        }
+    .why-urlwebwala {
+        padding: 20px;
+        margin-top: 20px;
+    }
 
-        .why-urlwebwala h3 {
-            color: var(--tp-theme-vogue);
-            font-size: 20px;
-            margin-bottom: 10px;
-        }
+    .why-urlwebwala h3 {
+        color: var(--tp-theme-vogue);
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
 
-        .why-urlwebwala hr {
-            border: 0;
-            height: 2px;
-            background-color: var(--tp-theme-redical);
-            width: 50px;
-            margin-bottom: 20px;
-        }
+    .why-urlwebwala hr {
+        border: 0;
+        height: 2px;
+        background-color: var(--tp-theme-redical);
+        width: 50px;
+        margin-bottom: 20px;
+    }
 
-        .why-urlwebwala ul {
-            list-style: none;
-            padding: 0;
-        }
+    .why-urlwebwala ul {
+        list-style: none;
+        padding: 0;
+    }
 
-        .why-urlwebwala li {
-            margin-bottom: 10px;
-            font-size: 16px;
-            color: #333;
-            display: flex;
-            align-items: center;
-        }
+    .why-urlwebwala li {
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #333;
+        display: flex;
+        align-items: center;
+    }
 
-        .why-urlwebwala li i {
-            color: var(--tp-theme-redical);
-            font-size: 18px;
-            margin-right: 10px;
-        }
+    .why-urlwebwala li i {
+        color: var(--tp-theme-redical);
+        font-size: 18px;
+        margin-right: 10px;
+    }
     </style>
 
     <!-- Current Openings Section -->
@@ -292,13 +291,13 @@
     </div>
 
     <style>
-        .center-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            /* Adjust the height as needed */
-            text-align: center;
-        }
+    .center-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Adjust the height as needed */
+        text-align: center;
+    }
     </style>
     <!-- CTA Area -->
 

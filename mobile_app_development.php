@@ -1,5 +1,4 @@
 <?php include('header.php');?>
-<link rel="canonical" href="https://www.urlwebwala.com/mobile_app_development" />
 
 
 <div class="body-overlay"></div>

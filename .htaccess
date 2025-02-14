@@ -38,10 +38,3 @@ RewriteRule ^hosting$ hosting.php [L]
 RewriteRule ^support$ support.php [L]
 RewriteRule ^portfolio$ portfolio.php [L]
 RewriteRule ^contact$ contact.php [L]
-
-# Add canonical meta tag dynamically through PHP
-
-<IfModule mod_rewrite.c>
-  RewriteCond %{REQUEST_FILENAME} -f
-  RewriteRule ^(.*)$ - [E=CANONICAL_URL:https://www.urlwebwala.com/$1]
-</IfModule>

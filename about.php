@@ -1,6 +1,5 @@
 <?php include('header.php');?>
 
-<link rel="canonical" href="https://www.urlwebwala.com/about" />
 
 <!-- off canvas area  -->
 <main>

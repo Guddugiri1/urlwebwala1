@@ -1,6 +1,5 @@
 <?php include('header.php');?>
 
-<link rel="canonical" href="https://www.urlwebwala.com/portfolio" />
 
 <div class="tp-offcanvas-wrapper">
     <div class="tp-offcanvas white-bg">
