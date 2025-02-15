@@ -11,6 +11,7 @@
     </title>
     <meta name="description" content="<?php echo (isset($description) && !empty($description) ? $description : '')?>">
     <meta property="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="./assets/img/logo/fev.png">
     <meta property="og:url" content="https://www.urlwebwala.com">
     <meta property="og:site_name" content="<?php  (!empty(COMPANY_TITLT) ? COMPANY_TITLT : '') ?>">
     <meta property="og:image" content="https://urlwebwala.com/assets/metalog.png">
@@ -50,16 +51,203 @@
     }
     </script>
 
+
+    /* Base styles */
+    .tp-header__1 {
+    background-color: #f8f9fa;
+    /* Set the background color */
+    }
+
+    .tp-header__1 .logo img {
+    width: 100%;
+    /* Make the logo responsive */
+    max-width: 215px;
+    /* Set the max width for the logo */
+    }
+
+    .main-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    }
+
+    .main-menu ul li {
+    position: relative;
+    }
+
+    .main-menu ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    }
+
+    .main-menu ul li .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .main-menu ul li:hover .submenu {
+    display: block;
+    }
+
+    /* Mobile Styles */
+    @media (max-width: 1199px) {
+    .tp-header__1-main {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+
+    .col-xl-8 {
+    display: block;
+    }
+
+    .main-menu ul {
+    display: block;
+    text-align: center;
+    }
+
+    .main-menu ul li {
+    margin-bottom: 10px;
+    }
+
+    .main-menu ul li a {
+    padding: 8px 15px;
+    font-size: 16px;
+    }
+
+    .tp-header__1-right {
+    display: none;
+    }
+
+    .d-xl-none {
+    display: block !important;
+    }
+
+    /* Mobile Menu Toggle */
+    .tp-header-search-nav {
+    display: block;
+    cursor: pointer;
+    }
+
+    .tp-header-nav span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    }
+    }
+
+    @media (max-width: 1000px) and (min-width: 800px) {
+
+    /* For screen sizes between 800px and 1000px */
+    .tp-header__1-main {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+
+    /* Adjust logo size */
+    .logo {
+    width: 250px;
+    /* Reduce size slightly */
+    }
+
+    .main-menu ul {
+    display: block;
+    text-align: center;
+    }
+
+    .main-menu ul li {
+    margin-bottom: 12px;
+    }
+
+    .main-menu ul li a {
+    padding: 12px 20px;
+    }
+
+    .tp-header__1-right {
+    display: block;
+    }
+    }
+
+    @media (max-width: 1300px) and (min-width: 1000px) {
+
+    /* For screen sizes between 1000px and 1300px */
+    .tp-header__1-main {
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+
+    /* Adjust logo size */
+    .logo {
+    width: 300px;
+    /* Increase size slightly to prevent compression */
+    }
+
+    .main-menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    .main-menu ul li {
+    margin-bottom: 0;
+    }
+
+    .main-menu ul li a {
+    padding: 10px 18px;
+    }
+
+    .tp-header__1-right {
+    display: block;
+    }
+    }
+
+    @media (max-width: 768px) {
+
+    /* Adjust the logo */
+    .logo {
+    width: 200px;
+    /* Logo size for small screens */
+    }
+
+    .main-menu ul {
+    display: block;
+    padding-top: 20px;
+    }
+
+    .main-menu ul li a {
+    padding: 12px 15px;
+    }
+
+    .tp-header__1-main {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+
+    .tp-header__1-right {
+    display: block;
+    width: 100%;
+    text-align: center;
+    }
+    }
+    </style> -->
+
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZ5QVDBENP"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-NZ5QVDBENP');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-NZ5QVDBENP');
     </script>
 
 
@@ -98,26 +286,18 @@
                                 <div class="main-menu p-relative">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li class="">
-                                                <a href="index.php">Home</a>
-                                            </li>
-
+                                            <li><a href="index.php">Home</a></li>
                                             <li class="has-dropdown">
                                                 <a href="#">Company</a>
                                                 <ul class="submenu">
-                                                    <li>
                                                     <li><a href="about.php">ABOUT US</a></li>
                                                     <li><a href="career.php">CAREER</a></li>
                                                     <li><a href="developmentprocess.php">DEVELOPMENT PROCESS</a></li>
                                                 </ul>
                                             </li>
-                                            <!-- <li>
-                                                <a href="about.php">About Us</a>
-                                            </li> -->
                                             <li class="has-dropdown">
                                                 <a href="services.php">SERVICES</a>
                                                 <ul class="submenu">
-                                                    <li>
                                                     <li><a href="web_development.php">WEB DEVELOPMENT</a></li>
                                                     <li><a href="mobile_app_development.php">APP DEVELOPMENT</a></li>
                                                     <li><a href="digital_marketing.php">DIGITAL MARKETING</a></li>
@@ -128,31 +308,19 @@
                                                     <li><a href="support.php">SUPPORT & MAINTAINANCE</a></li>
                                                 </ul>
                                             </li>
-                                            </li>
                                             <li class="has-dropdown">
-                                                <a href="internship.php">INTERSHIP</a>
+                                                <a href="internship.php">INTERNSHIP</a>
                                                 <ul class="submenu">
-                                                    <li>
                                                     <li><a href="php-internship.php">PHP</a></li>
                                                     <li><a href="web-design-internship.php">WEB DEVELOPMENT</a></li>
                                                     <li><a href="flutter-internship.php">FLUTTER</a></li>
-                                                    <!-- <li><a href="android-internship.php">ANDROID</a></li> -->
                                                     <li><a href="reactJS-internship.php">REACT JS</a></li>
                                                     <li><a href="nodeJS-internship.php">NODE JS</a></li>
-                                                    <!-- <li><a href="live-project-internship.php">LIVE PROJECT TRAINING</a> -->
+                                                </ul>
                                             </li>
+                                            <li><a href="portfolio.php">Portfolio</a></li>
+                                            <li><a href="contact.php">Contact Us</a></li>
                                         </ul>
-                                        </li>
-                                        </li>
-                                        <li>
-                                            <a href="portfolio.php">Portfolio</a>
-                                        </li>
-                                        <li>
-                                            <a href="contact.php">Contact Us</a>
-                                        </li>
-                                        <!-- <button type="button" class="btn btn-outline-primary">BOOK DEMO</button> -->
-                                        </ul>
-
                                     </nav>
                                 </div>
                             </div>
@@ -172,48 +340,6 @@
             </div>
         </div>
     </header>
-
-    <style>
-    @media (max-width: 1400px) and (min-width: 1200px) {
-        .tp-header__1-main {
-            padding-left: 20px !important;
-            padding-right: 20px !important;
-        }
-
-        .logo img {
-            width: 180px !important;
-        }
-
-        .main-menu nav ul li a {
-            font-size: 14px !important;
-            padding: 8px 12px !important;
-        }
-
-        .mega-menu-wrapper .row.align-items-center {
-            display: flex;
-            align-items: center;
-            flex-wrap: nowrap;
-        }
-
-        .col-xxl-3,
-        .col-xl-2,
-        .col-6 {
-            flex: 0 0 auto;
-            width: auto !important;
-        }
-
-        .col-xxl-8,
-        .col-xl-8 {
-            flex: 1 1 auto;
-            text-align: left;
-        }
-
-        .tp-header__1-right {
-            flex: 0 0 auto;
-            justify-content: flex-end !important;
-        }
-    }
-    </style>
 
 
 
@@ -292,24 +418,24 @@
     <div class="body-overlay"></div>
     <!-- back to top start  -->
     <style>
-    .float {
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 53.1px;
-        right: 50px;
-        background-color: #25d366;
-        color: #FFF;
-        border-radius: 50px;
-        text-align: center;
-        font-size: 30px;
-        box-shadow: 2px 2px 3px #999;
-        z-index: 100;
-    }
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 53.1px;
+            right: 50px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
 
-    .my-float {
-        margin-top: 16px;
-    }
+        .my-float {
+            margin-top: 16px;
+        }
     </style>
 
     <a href="#main-wrapper" id="tp-backto-top" class="tp-back-to-top show">
