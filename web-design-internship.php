@@ -1,5 +1,7 @@
-<?php include('header.php');?>
-
+<?php
+$pageTitle = 'Web Design Internship';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+include('header.php');?>
 
 <div class="body-overlay"></div>
 <!-- back to top start  -->

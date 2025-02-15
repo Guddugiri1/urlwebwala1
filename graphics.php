@@ -1,4 +1,7 @@
-<?php include('header.php');?>
+<?php
+$pageTitle = 'Graphics & Logos';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+include('header.php');?>
 
 <head>
     <title>Creative Graphic Design Services | Urlwebwala LLP</title>

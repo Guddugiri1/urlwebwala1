@@ -1,16 +1,9 @@
-<?php include('header.php');?>
-
-<head>
-    <title>Urlwebwala LLP | IT & Web Development Services</title>
-    <meta name="description"
-        content="Urlwebwala LLP offers web development, mobile apps, and digital marketing in Ahmedabad. Boost your business with expert IT solutions.">
-    <link rel="canonical" href="https://www.urlwebwala.com/index" />
-</head>
-
-
-<!-- back to top end  -->
+<?php 
+$pageTitle = 'Home';
+$description = 'Urlwebwala LLP offers web development, mobile apps, and digital marketing in Ahmedabad. Boost your business with expert IT solutions.';
+include('header.php');
+?>
 <main>
-    <!-- slider start  -->
     <div class="tp-it-slider-area">
         <div class="swiper-container ptg-slider-active">
             <div class="swiper-wrapper">

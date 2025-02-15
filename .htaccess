@@ -1,24 +1,10 @@
-Options +FollowSymLinks
+# Enable mod_rewrite
 RewriteEngine On
-RewriteBase /
 
-# Force HTTPS and www for all pages
+# Remove .php extension from URL
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
 
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} ^urlwebwala\.com [NC]
-RewriteRule ^(.\*)$ https://www.urlwebwala.com/$1 [R=301,L]
-
-# Redirect index.php to main domain
-
-RewriteCond %{THE_REQUEST} /index\.php [NC]
-RewriteRule ^index\.php$ https://www.urlwebwala.com/ [R=301,L]
-
-# Remove .php extension from URLs and redirect
-
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.+)$ $1.php [L]
-
-# Pretty URLs for specific pages (without .php extension)
-
-RewriteRule ^(about|career|developmentprocess|services|web_development|mobile_app_development|digital_marketing|graphics|testing|digital_card|hosting|support|portfolio|contact)$ $1.php [L]
+# Redirect from .php to non-.php URL (optional)
+RewriteCond %{THE_REQUEST} \s/+(.*)\.php [NC]
+RewriteRule ^ /%1 [R=301,L]

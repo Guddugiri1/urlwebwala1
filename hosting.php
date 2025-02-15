@@ -1,12 +1,7 @@
-<?php include('header.php');?>
-
-<head>
-    <title>Reliable Web Hosting Services | Urlwebwala LLP</title>
-    <meta name="description"
-        content="Secure, fast, and affordable web hosting services by Urlwebwala LLP. Get the best hosting solutions for your business.">
-    <link rel="canonical" href="https://www.urlwebwala.com/hosting" />
-</head>
-
+<?php 
+$pageTitle = 'Hosting Services';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+include('header.php');?>
 
 <div class="body-overlay"></div>
 

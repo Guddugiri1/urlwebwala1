@@ -1,11 +1,11 @@
 <?php include('header.php');?>
 
-<head>
+<!-- <head>
     <title>Complete IT Services | Urlwebwala LLP</title>
     <meta name="description"
         content="Explore our IT services, including web development, mobile apps, and digital marketing. Elevate your brand with Urlwebwala LLP.">
     <link rel="canonical" href="https://www.urlwebwala.com/services" />
-</head>
+</head> -->
 
 <!-- off canvas area  -->
 <main>

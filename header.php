@@ -1,3 +1,4 @@
+<?php require_once('./constants/constants.php') ?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -5,61 +6,28 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Dynamic Page Title -->
     <title>
-        <?php 
-        $pageTitle = "Urlwebwala | IT Services in Ahmedabad"; // Default title
-        $end = basename(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)); // More reliable method
-
-        $titles = [
-            'index.php' => "Urlwebwala LLP | IT & Web Development Services",
-            'about.php' => "About Urlwebwala LLP | Trusted IT Partner",
-            'web_development.php' => "Web Development Services | Urlwebwala LLP",
-            'services.php' => "Complete IT Services | Urlwebwala LLP",
-            'mobile_app_development.php' => "Mobile App Development | Urlwebwala LLP",
-            'digital_marketing.php' => "Digital Marketing | SEO & Ads | Urlwebwala LLP"
-        ];
-
-        if (array_key_exists($end, $titles)) {
-            $pageTitle = $titles[$end];
-        }
-        echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8');
-        ?>
+        <?php echo (isset($pageTitle) && !empty($pageTitle) ? $pageTitle . ' | ' : '') . (!empty(COMPANY_TITLT) ? COMPANY_TITLT : '') ?>
     </title>
-
-    <!-- Meta Description -->
-    <?php
-    $metaDescriptions = [
-        'index.php' => "Urlwebwala LLP offers web development, mobile apps, and digital marketing in Ahmedabad. Boost your business with expert IT solutions.",
-        'about.php' => "Learn about Urlwebwala LLP, a trusted IT solutions provider in Ahmedabad, specializing in web development, apps, and digital marketing.",
-        'web_development.php' => "Get responsive, SEO-friendly web development in Ahmedabad. Urlwebwala LLP creates user-friendly websites for businesses.",
-        'services.php' => "Explore our IT services, including web development, mobile apps, and digital marketing. Elevate your brand with Urlwebwala LLP.",
-        'mobile_app_development.php' => "Build scalable mobile apps for Android & iOS with Urlwebwala LLP. Innovative solutions tailored for your business.",
-        'digital_marketing.php' => "SEO, PPC, and social media marketing from Urlwebwala LLP. Improve online visibility and grow your audience."
-    ];
-
-    $metaDescription = $metaDescriptions[$end] ?? "Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.";
-    ?>
-    <meta name="description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>">
-
-    <!-- Open Graph Meta Tags -->
+    <meta name="description" content="<?php echo (isset($description) && !empty($description) ? $description : '')?>">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.urlwebwala.com">
-    <meta property="og:site_name" content="Urlwebwala LLP">
+    <meta property="og:site_name" content="<?php  (!empty(COMPANY_TITLT) ? COMPANY_TITLT : '') ?>">
     <meta property="og:image" content="https://urlwebwala.com/assets/metalog.png">
-    <meta property="og:title" content="<?php echo htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8'); ?>">
-    <meta property="og:description" content="<?php echo htmlspecialchars($metaDescription, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:title" content="<?php echo (isset($description) && !empty($description) ? $description : '')?>">
+    <meta property="og:description"
+        content="<?php echo (isset($description) && !empty($description) ? $description : '')?>">
+    <link rel="canonical"
+        href="https://www.urlwebwala.com/<?php echo(isset($_SERVER['REQUEST_URI']) && !empty($_SERVER['REQUEST_URI']) ? basename($_SERVER['REQUEST_URI']) : '') ?>" />
 
-
-
-    <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "name": "Urlwebwala LLP",
-        "url": "https://www.urlwebwala.com",
+        <
+        !--"url": "https://www.urlwebwala.com",
+        -- >
         "logo": "https://urlwebwala.com/assets/metalog.png",
         "image": "https://urlwebwala.com/assets/metalog.png",
         "address": {
@@ -113,14 +81,7 @@
 
 
 <body>
-
     <header>
-
-        <?php
-if (isset($_SERVER['REDIRECT_CANONICAL_URL'])) {
-    echo '<link rel="canonical" href="'.$_SERVER['REDIRECT_CANONICAL_URL'].'" />';
-}
-?>
         <div class="tp-header__1 theme-bg p-relative">
             <div id="header-sticky" class="tp-header__1-main header-border-button pl-105 pr-105">
                 <div class="container-fluid">

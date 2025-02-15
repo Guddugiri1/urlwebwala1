@@ -1,15 +1,9 @@
-<?php include('header.php'); ?>
+<?php
+$pageTitle = 'Career';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+include('header.php'); ?>
 
-<head>
-    <title>Career Opportunities | Urlwebwala LLP</title>
-    <meta name="description"
-        content="Join Urlwebwala LLP and grow your career in IT services. Explore opportunities in web development, digital marketing, and more.">
-    <link rel="canonical" href="https://www.urlwebwala.com/career" />
-</head>
-
-<!-- Off canvas area -->
 <main>
-    <!-- Breadcrumb area start -->
     <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.png">
         <div class="container">
             <div class="row">
@@ -26,9 +20,7 @@
             </div>
         </div>
     </div>
-    <!-- Breadcrumb area end -->
 
-    <!-- About Company Section -->
     <div class="law-about-area pt-120 pb-90">
         <div class="container">
             <div class="row align-items-center">

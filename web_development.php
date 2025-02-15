@@ -1,15 +1,15 @@
-<?php include('header.php');?>
+<?php 
+$pageTitle = 'Web Development';
+$description = 'Get responsive, SEO-friendly web development in Ahmedabad. Urlwebwala LLP creates user-friendly websites for businesses.';
+include('header.php');?>
 
 
 <div class="body-overlay"></div>
-<!-- back to top start  -->
 <a href="#main-wrapper" id="tp-backto-top" class="tp-back-to-top show">
     <span>
         <i class="fal fa-angle-double-up"></i>
     </span>
 </a>
-
-<!-- off canvas area  -->
 <main>
 
     <!-- breadcrumb area start -->

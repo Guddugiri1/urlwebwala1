@@ -1,25 +1,15 @@
-<?php include('header.php');?>
-
-<head>
-    <title>Digital Marketing | SEO & Ads | Urlwebwala LLP</title>
-    <meta name="description"
-        content="SEO, PPC, and social media marketing from Urlwebwala LLP. Improve online visibility and grow your audience.">
-    <link rel="canonical" href="https://www.urlwebwala.com/digital_marketing" />
-</head>
-
+<?php 
+$pageTitle = 'Digital Marketing';
+$description = 'SEO, PPC, and social media marketing from Urlwebwala LLP. Improve online visibility and grow your audience.';
+include('header.php');?>
 
 <div class="body-overlay"></div>
-<!-- back to top start  -->
 <a href="#main-wrapper" id="tp-backto-top" class="tp-back-to-top show">
     <span>
         <i class="fal fa-angle-double-up"></i>
     </span>
 </a>
-
-<!-- off canvas area  -->
 <main>
-
-    <!-- breadcrumb area start -->
     <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.png">
         <div class="container">
             <div class="row">

@@ -1,18 +1,15 @@
-<?php include('header.php'); ?>
+<?php 
+$pageTitle = 'Support & Maintenance';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+include('header.php'); ?>
 
 <div class="body-overlay"></div>
-
-<!-- Back to Top -->
 <a href="#main-wrapper" id="tp-backto-top" class="tp-back-to-top show">
     <span>
         <i class="fal fa-angle-double-up"></i>
     </span>
 </a>
-
-<!-- Off Canvas Area -->
 <main>
-
-    <!-- Breadcrumb Area Start -->
     <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.png">
         <div class="container">
             <div class="row">
@@ -29,8 +26,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Breadcrumb Area End -->
 
     <!-- Service Section Start -->
     <div class="tp-sv-details-area py-5">

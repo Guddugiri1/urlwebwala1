@@ -1,11 +1,7 @@
-<?php include('header.php');?>
-
-<head>
-    <title>Our Work | Portfolio | Urlwebwala LLP</title>
-    <meta name="description"
-        content="Check out our portfolio of web development, mobile apps, and digital marketing projects at Urlwebwala LLP.">
-    <link rel="canonical" href="https://www.urlwebwala.com/portfolio" />
-</head>
+<?php 
+$pageTitle = 'Portfolio';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+include('header.php');?>
 
 
 <div class="tp-offcanvas-wrapper">

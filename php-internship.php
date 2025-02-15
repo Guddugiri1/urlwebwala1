@@ -1,11 +1,8 @@
-<?php include('header.php');?>
+<?php
 
-<head>
-    <title>PHP Internship | Urlwebwala LLP</title>
-    <meta name="description"
-        content="Join our PHP internship program at Urlwebwala LLP and gain hands-on experience in real-world web development projects.">
-    <link rel="canonical" href="https://www.urlwebwala.com/php-internship" />
-</head>
+$pageTitle = 'PHP Internship';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+include('header.php');?>
 
 
 

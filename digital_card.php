@@ -1,4 +1,7 @@
-<?php include('header.php'); ?>
+<?php
+$pageTitle = 'Digital Card Design';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+include('header.php'); ?>
 
 <head>
     <title>Digital Business Cards | Urlwebwala LLP</title>
@@ -8,17 +11,12 @@
 </head>
 
 <div class="body-overlay"></div>
-<!-- back to top start  -->
 <a href="#main-wrapper" id="tp-backto-top" class="tp-back-to-top show">
     <span>
         <i class="fal fa-angle-double-up"></i>
     </span>
 </a>
-
-<!-- off canvas area  -->
 <main>
-
-    <!-- breadcrumb area start -->
     <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.png">
         <div class="container">
             <div class="row">

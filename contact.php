@@ -1,11 +1,14 @@
-<?php include('header.php');?>
+<?php 
+$pageTitle = 'Contect Us';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+include('header.php');?>
 
-<head>
+<!-- <head>
     <title>Contact Urlwebwala LLP</title>
     <meta name="description"
         content="Get in touch with Urlwebwala LLP for web development, mobile apps, and digital marketing services in Ahmedabad.">
     <link rel="canonical" href="https://www.urlwebwala.com/contact" />
-</head>
+</head> -->
 
 
 <div class="tp-offcanvas-wrapper">

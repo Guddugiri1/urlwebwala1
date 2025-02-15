@@ -1,25 +1,15 @@
-<?php include('header.php');?>
-
-<head>
-    <title>NodeJS Internship | Urlwebwala LLP</title>
-    <meta name="description"
-        content="Kickstart your NodeJS development career with our hands-on internship program at Urlwebwala LLP.">
-    <link rel="canonical" href="https://www.urlwebwala.com/nodeJS-internship" />
-</head>
-
-
+<?php
+$pageTitle = 'Node JS Internship';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+include('header.php');?>
 
 <div class="body-overlay"></div>
-<!-- back to top start  -->
 <a href="#main-wrapper" id="tp-backto-top" class="tp-back-to-top show">
     <span>
         <i class="fal fa-angle-double-up"></i>
     </span>
 </a>
-
-<!-- off canvas area  -->
 <main>
-    <!-- breadcrumb area start -->
     <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.png">
         <div class="container">
             <div class="row">
@@ -37,9 +27,7 @@
             </div>
         </div>
     </div>
-    <!-- breadcrumb area end -->
 
-    <!-- contact page info start  -->
     <div class="contact-page-area pt-120 pb-90 wow tpfadeUp">
         <div class="container">
             <div class="row">
@@ -100,6 +88,7 @@
                                 </p>
                     </div>
                 </div>
+                <?php /*
                 <!-- <div class="col-lg-12">
                     <div class="tp-contact-page-info ">
                         <h6><b>Essential Skills for Node.js Interns</b>
@@ -677,6 +666,8 @@
                                         </ul>
                             </div>
                         </div> -->
+
+                        */ ?>
 
 
 

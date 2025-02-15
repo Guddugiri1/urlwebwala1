@@ -1,15 +1,8 @@
-<?php include('header.php');?>
-
-<head>
-    <title>About Urlwebwala LLP | Trusted IT Partner</title>
-    <meta name="description"
-        content="Learn about Urlwebwala LLP, a trusted IT solutions provider in Ahmedabad, specializing in web development, apps, and digital marketing.">
-    <link rel="canonical" href="https://www.urlwebwala.com/about" />
-</head>
-
-<!-- off canvas area  -->
+<?php
+$pageTitle = 'About';
+$description = 'Learn about Urlwebwala LLP, a trusted IT solutions provider in Ahmedabad, specializing in web development, apps, and digital marketing.';
+include('header.php');?>
 <main>
-    <!-- breadcrumb area start -->
     <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.png">
         <div class="container">
             <div class="row">
@@ -26,9 +19,7 @@
             </div>
         </div>
     </div>
-    <!-- breadcrumb area end -->
 
-    <!--  -->
     <div class="law-about-area pt-120 pb-90">
         <div class="container">
             <div class="row align-items-center">

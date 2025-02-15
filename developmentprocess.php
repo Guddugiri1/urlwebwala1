@@ -1,12 +1,7 @@
-<?php include('header.php');?>
-<!-- off canvas area  -->
-
-<head>
-    <title>Our Development Process | Urlwebwala LLP</title>
-    <meta name="description"
-        content="Learn about our step-by-step web and app development process at Urlwebwala LLP. Quality, security, and performance guaranteed.">
-    <link rel="canonical" href="https://www.urlwebwala.com/developmentprocess" />
-</head>
+<?php
+$pageTitle = 'Development Process';
+$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.'; 
+include('header.php');?>
 
 <main>
     <!-- breadcrumb area start -->
