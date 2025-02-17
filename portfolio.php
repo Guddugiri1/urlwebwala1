@@ -109,6 +109,7 @@ include('header.php');?>
                     <div class="col-12">
                         <div class="tp-pf-btn-group text-center">
                             <button class="active" data-filter="*">All Work</button>
+                            <button data-filter=".carddesign">Card Design</button>
                             <button data-filter=".design">Logo Design</button>
                             <button data-filter=".support">Web development</button>
                             <button data-filter=".app">App Development</button>
@@ -117,15 +118,6 @@ include('header.php');?>
                 </div>
             </div>
             <div class="row tp-portfolio-isotop-active">
-                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
-                    <!--LOGO -->
-                    <div class="pf-item-wrapper p-relative">
-                        <div class="pf-single-item">
-                            <img src="assets/img/services/2.jpg" alt="">
-                        </div>
-
-                    </div>
-                </div>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img business">
                     <!--logo-->
                     <div class="pf-item-wrapper p-relative">
@@ -136,7 +128,7 @@ include('header.php');?>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img carddesign">
                     <!--LOGO 3-->
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
@@ -146,7 +138,7 @@ include('header.php');?>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img business">
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img carddesign">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
                             <img src="assets/img/services/4.jpg" alt="">
@@ -155,7 +147,7 @@ include('header.php');?>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img business">
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img carddesign">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
                             <img src="assets/img/services/3.jpg" alt="">
@@ -163,7 +155,7 @@ include('header.php');?>
 
                     </div>
                 </div>
-                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img carddesign">
                     <!--LOGO 4-->
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
@@ -172,45 +164,59 @@ include('header.php');?>
 
                     </div>
                 </div>
-                <!-- <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img support consultancy">
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img support consultancy">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/Home_MA.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/Port1.jpg" alt="" style="height:300px">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img support consultancy">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/Home_JD_V2.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/Port2.jpg" alt="" style="height:300px">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img support consultancy">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/Home_DD_V3.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/Port3.jpg" alt="" style="height:300px">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img support consultancy">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/Home_DD_V3.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/Port4.jpg" alt="" style="height:300px">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img support consultancy">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/thesmilespace.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/Port7.jpg" alt="" style="height:300px">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img support consultancy">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/Home_MA.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/Port6.jpg" alt="" style="height:300px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img support consultancy">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/Port8.jpg" alt="" style="height:300px">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img support consultancy">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/Port9.jpg" alt="" style="height:300px">
                         </div>
                     </div>
                 </div>
@@ -218,7 +224,7 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/newfour.png" alt="">
+                            <img src="assets/img/portfolio/logo1.jpg" alt="">
                         </div>
 
                     </div>
@@ -226,7 +232,7 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/newfive.png" alt="">
+                            <img src="assets/img/portfolio/logo2.jpg" alt="">
                         </div>
 
                     </div>
@@ -234,7 +240,7 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/newsix.png" alt="">
+                            <img src="assets/img/portfolio/logo3.jpg" alt="">
                         </div>
 
                     </div>
@@ -242,7 +248,7 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/newseven.png" alt="">
+                            <img src="assets/img/portfolio/logo4.jpg" alt="">
                         </div>
 
                     </div>
@@ -250,7 +256,47 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/neweight.png" alt="">
+                            <img src="assets/img/portfolio/logo5.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/logo6.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/logo7.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/logo8.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/logo9.jpg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img design">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/logo10.jpg" alt="">
                         </div>
 
                     </div>
@@ -258,7 +304,7 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img app">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/brabhamsmiles.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/App1.jpg" alt="" style="height:300px">
                         </div>
 
                     </div>
@@ -266,7 +312,7 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img app">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/clearchoicedental.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/App2.jpg" alt="" style="height:300px">
                         </div>
 
                     </div>
@@ -274,7 +320,7 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img app">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/home.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/App3.jpg" alt="" style="height:300px">
                         </div>
 
                     </div>
@@ -282,7 +328,7 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img app">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/Home_2_VR.png" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/App4.jpg" alt="" style="height:300px">
                         </div>
 
                     </div>
@@ -290,7 +336,7 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img app">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/Home_APD.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/App5.jpg" alt="" style="height:300px">
                         </div>
 
                     </div>
@@ -298,11 +344,43 @@ include('header.php');?>
                 <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img app">
                     <div class="pf-item-wrapper p-relative">
                         <div class="pf-single-item">
-                            <img src="assets/img/portfolio/ellenstirlingdental.jpg" alt="" style="height:1000px">
+                            <img src="assets/img/portfolio/App6.jpg" alt="" style="height:300px">
                         </div>
 
                     </div>
-                </div> -->
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img app">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/App7.jpg" alt="" style="height:300px">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img app">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/App8.jpg" alt="" style="height:300px">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img app">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/App9.jpg" alt="" style="height:300px">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-4 tp-portfolio-item mb-25 w-img app">
+                    <div class="pf-item-wrapper p-relative">
+                        <div class="pf-single-item">
+                            <img src="assets/img/portfolio/App10.jpg" alt="" style="height:300px">
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
         </div>

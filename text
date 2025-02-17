@@ -1,0 +1,34 @@
+<section class="policy-section py-4">
+    <div class="container">
+        <h2 class="policy-heading">Terms and Conditions</h2>
+        <ol type="1" class="list-custom">
+            <li class="list-text">Please read these Terms and Conditions carefully before using <a
+                    href="https://www.thewildtigers.com" target="_blank"
+                    class="list-text text-decoration-none">www.thewildtigers.com</a>.</li>
+            <li class="list-text">The user must agree and accept all the "Terms and Conditions" before using <a
+                    href="https://www.thewildtigers.com" target="_blank"
+                    class="list-text text-decoration-none">www.thewildtigers.com</a> website.</li>
+            <li class="list-text">WildTigers Technologies Private Limited, reserves the right to modify "Terms and
+                Conditions" at any time without informing the user.</li>
+            <li class="list-text">This website <a href="https://www.thewildtigers.com" target="_blank"
+                    class="list-text text-decoration-none">www.thewildtigers.com</a> is owned and operated by WildTigers
+                Technologies Private Limited only. All content present on this site is the property of WildTigers
+                Technologies Private Limited including all the graphics, images, logos, software, trademarks, video,
+                text, audio and animation used on this Site.</li>
+            <li class="list-text">WildTigers Technologies Private Limited name and logo is the trademark of WildTigers
+                Technologies Private Limited only. These trademarks &amp; logo may not be used in any manner. You may
+                not copy, reproduce, republished, use, adapt, modify and alter these contents of this website without
+                the permission of WildTigers Technologies Private Limited. You must not use any contact information and
+                e-mail addresses which may be found on this website to send any unsolicited commercial information.</li>
+            <li class="list-text">The link of the third party website address may found on this websites, so we are not
+                responsible for the contents of such sites or whole website (third party) at all. The Third party
+                website is not under control of WildTigers Technologies Private Limited at all. You at your own risk may
+                access to such other sites via the links contained on this website.</li>
+            <li class="list-text">WildTigers Technologies Private Limited shall have no responsibility for any damage to
+                your computer system or loss of data that results from the download of any information from this Site.
+            </li>
+            <li class="list-text">For more details please, <a href="https://www.thewildtigers.com/contact-us.html"
+                    class="list-text text-decoration-none">Contact us</a>. </li>
+        </ol>
+    </div>
+</section>

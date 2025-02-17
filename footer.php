@@ -138,6 +138,12 @@
                         <div class="row align-items-center">
                             <div class="col-md-8 col-12">
                                 <div class="tp-copyrigh-text text-center text-md-start">
+                                    <span>
+                                        <a href="privacypolicy.php">Privacy and Policy</a> |
+                                        <a href="termsconditions.php">Terms & Conditions</a> |
+                                        <a href="#">Admin Login</a>
+                                    </span>
+                                    <br>
                                     <span>Copyright &amp; Design With &#10084;&#65039; By <a
                                             href="https://www.urlwebwala.com">@Urlwebwala</a> -
                                         2025, All Rights Reserved.</span>

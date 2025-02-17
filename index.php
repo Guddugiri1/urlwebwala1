@@ -256,7 +256,8 @@ include('header.php');
                             </div>
                             <h3 class="it-service__item-title mb-20"><a href="web_development.php">Web Development</a>
                             </h3>
-                            <p class="mb-0">To attract and keep consumers, get a strong website developed from scratch
+                            <p class="mb-0" style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;">To
+                                attract and keep consumers, get a strong website developed from scratch
                                 utilising the most recent web development techniques.</p>
                         </div>
                     </div>
@@ -267,7 +268,8 @@ include('header.php');
                             </div>
                             <h3 class="it-service__item-title mb-20"><a href="mobile_app_development.php">App
                                     Development</a></h3>
-                            <p class="mb-0">We create attractive mobile applications that boost consumer engagement and
+                            <p class="mb-0" style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;">We
+                                create attractive mobile applications that boost consumer engagement and
                                 conversion rates.</p>
                         </div>
                     </div>
@@ -279,7 +281,8 @@ include('header.php');
                             <h3 class="it-service__item-title mb-20"><a href="digital_marketing.php">Digital
                                     Marketing</a>
                             </h3>
-                            <p class="mb-0">We will create personalised online marketing solutions for you so you can
+                            <p class="mb-0" style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;">We
+                                will create personalised online marketing solutions for you so you can
                                 stay
                                 on top of your social media and SEO game.</p>
                         </div>
@@ -291,7 +294,8 @@ include('header.php');
                                 <img src="assets/img/services/icon/it-service-4.png" alt="">
                             </div>
                             <h3 class="it-service__item-title mb-20"><a href="graphics.php">Graphics & Logo</a></h3>
-                            <p class="mb-0">For a variety of platforms, we transform conceptual ideas into clear,
+                            <p class="mb-0" style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;">For a
+                                variety of platforms, we transform conceptual ideas into clear,
                                 practical,
                                 and beautiful visual interfaces.</p>
                         </div>
@@ -302,7 +306,8 @@ include('header.php');
                                 <img src="assets/img/services/icon/it-service-5.png" alt="">
                             </div>
                             <h3 class="it-service__item-title mb-20"><a href="testing.php">QA Testing Website</a></h3>
-                            <p class="mb-0">Applications are thoroughly tested using industry-standard testing approach
+                            <p class="mb-0" style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;">
+                                Applications are thoroughly tested using industry-standard testing approach
                                 and
                                 QA procedures.</p>
                         </div>
@@ -314,7 +319,8 @@ include('header.php');
                             </div>
                             <h3 class="it-service__item-title mb-20"><a href="digital_card.php">Digital Card Design</a>
                             </h3>
-                            <p class="mb-0">The electronic equivalent of a paper card is a digital card. Digital cards
+                            <p class="mb-0" style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;">The
+                                electronic equivalent of a paper card is a digital card. Digital cards
                                 can
                                 also be called as digital business cards.</p>
                         </div>
@@ -341,10 +347,14 @@ include('header.php');
                         <div class="tp-about-sv-content">
                             <h1>We develop solutions that meet your needs for applications and websites.</h1>
                         </div><br>
-                        <p class="text-grey wow tpfadeUp" data-wow-delay=".3s">Urlwebwala Ahmedabad is an ISO-certified
+                        <p class="text-grey wow tpfadeUp"
+                            style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;" data-wow-delay=".3s">
+                            Urlwebwala Ahmedabad is an ISO-certified
                             software development firm that offers complete business IT solutions for
                             clients around the world.</p>
-                        <p class="text-grey wow tpfadeUp" data-wow-delay=".3s">We are the pioneers of web, mobile app,
+                        <p class="text-grey wow tpfadeUp"
+                            style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;" data-wow-delay=".3s">
+                            We are the pioneers of web, mobile app,
                             and
                             AR/VR solutions. Our highly experienced and skilled specialists are always on hand to meet
                             any
@@ -1109,167 +1119,7 @@ include('header.php');
                     </div>
                 </div>
             </div>
-
-            <!-- <div class="blog-container">
-                <div class="blog-card">
-                    <div class="blog-image">
-                        <span class="blog-category tech">Technology</span>
-                        <img src="assets/img/about/Aboutus1.png" alt="Snowflake Data">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span class="blog-date">📅 February 4, 2025</span>
-                            <span class="blog-comments">💬 0 Comments</span>
-                        </div>
-                        <h3 class="blog-title">TRANSFORMING BUSINESS DATA WITH SNOWFLAKE: A PRACTICAL GUIDE</h3>
-                        <p class="blog-description">Imagine running a large retail group with thousands of stores. Each
-                            day, you would obtain humongous amounts of data on...</p>
-                        <a href="#" class="blog-read-more">READ MORE <span>➡️</span></a>
-                    </div>
-                </div>
-
-                <div class="blog-card">
-                    <div class="blog-image">
-                        <span class="blog-category web-dev">Web Development</span>
-                        <img src="assets/img/about/Aboutus1.png" alt="WordPress Plugins">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span class="blog-date">📅 January 29, 2025</span>
-                            <span class="blog-comments">💬 0 Comments</span>
-                        </div>
-                        <h3 class="blog-title">5 POWERFUL WORDPRESS PLUGINS SHAPING THE DIGITAL EXPERIENCE</h3>
-                        <p class="blog-description">WordPress plugins have evolved as a highly effective way to improve
-                            website functionality without requiring any code...</p>
-                        <a href="#" class="blog-read-more">READ MORE <span>➡️</span></a>
-                    </div>
-                </div>
-
-                <div class="blog-card">
-                    <div class="blog-image">
-                        <span class="blog-category tech">Technology</span>
-                        <img src="assets/img/about/Aboutus1.png" alt="AI Smart Glasses">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span class="blog-date">📅 January 21, 2025</span>
-                            <span class="blog-comments">💬 0 Comments</span>
-                        </div>
-                        <h3 class="blog-title">THE ROLE OF AI-POWERED SMART GLASSES IN TELEMEDICINE</h3>
-                        <p class="blog-description">The healthcare industry is undergoing rapid change through
-                            technological breakthroughs. Among such innovations...</p>
-                        <a href="#" class="blog-read-more">READ MORE <span>➡️</span></a>
-                    </div>
-                </div>
-            </div> -->
         </div>
-
-        <!-- <style>
-            /* General Reset */
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-
-            /* Blog Container */
-            .blog-container {
-                display: flex;
-                justify-content: center;
-                gap: 20px;
-                padding: 40px;
-                flex-wrap: wrap;
-            }
-
-            /* Blog Card */
-            .blog-card {
-                background: #fff;
-                width: 300px;
-                border-radius: 10px;
-                overflow: hidden;
-                box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-                transition: transform 0.3s ease-in-out;
-            }
-
-            .blog-card:hover {
-                transform: translateY(-5px);
-            }
-
-            /* Blog Image */
-            .blog-image {
-                position: relative;
-                width: 100%;
-                height: 180px;
-            }
-
-            .blog-image img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-
-            /* Category Badge */
-            .blog-category {
-                position: absolute;
-                top: 10px;
-                left: 10px;
-                background: orange;
-                color: white;
-                padding: 5px 10px;
-                font-size: 12px;
-                font-weight: bold;
-                border-radius: 15px;
-            }
-
-            /* Category Colors */
-            .tech {
-                background: #ff6b6b;
-            }
-
-            .web-dev {
-                background: #ff9800;
-            }
-
-            /* Blog Content */
-            .blog-content {
-                padding: 15px;
-            }
-
-            .blog-meta {
-                display: flex;
-                justify-content: space-between;
-                font-size: 12px;
-                color: #666;
-                margin-bottom: 10px;
-            }
-
-            .blog-title {
-                font-size: 16px;
-                font-weight: bold;
-                margin-bottom: 10px;
-                color: #333;
-            }
-
-            .blog-description {
-                font-size: 14px;
-                color: #555;
-                margin-bottom: 15px;
-            }
-
-            /* Read More Button */
-            .blog-read-more {
-                text-decoration: none;
-                color: #ff6b6b;
-                font-weight: bold;
-                display: flex;
-                align-items: center;
-                gap: 5px;
-            }
-
-            .blog-read-more span {
-                font-size: 14px;
-            }
-        </style> -->
 
         <!--Blog end-->
 
