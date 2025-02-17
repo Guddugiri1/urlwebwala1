@@ -14,7 +14,7 @@
                             <span> <a style="background-color: #1877F2;"
                                     href="https://www.facebook.com/share/18aStSgd8m/"><i
                                         class="fa fa-facebook"></i></a></span>
-                            <span> <a style="background-color: #1DA1F2;" href="#"><i
+                            <span> <a style="background-color: #1DA1F2;" href="https://my.clutch.co/#Dashboard"><i
                                         class="fa fa-twitter"></i></a></span>
                             <span> <a style="background-color: #e1306c;"
                                     href="https://www.instagram.com/urlwebwala?igsh=MXM1aTl3ZDhiN284eQ=="><i

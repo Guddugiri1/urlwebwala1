@@ -132,6 +132,7 @@
                                                 </ul>
                                             </li>
                                             <li><a href="portfolio.php">Portfolio</a></li>
+                                            <li><a href="blog.php">Blog</a></li>
                                             <li><a href="contact.php">Contact Us</a></li>
                                         </ul>
                                     </nav>

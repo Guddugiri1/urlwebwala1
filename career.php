@@ -88,43 +88,43 @@ include('header.php'); ?>
 
     <!-- Style Section -->
     <style>
-    .why-urlwebwala {
-        padding: 20px;
-        margin-top: 20px;
-    }
+        .why-urlwebwala {
+            padding: 20px;
+            margin-top: 20px;
+        }
 
-    .why-urlwebwala h3 {
-        color: var(--tp-theme-vogue);
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
+        .why-urlwebwala h3 {
+            color: var(--tp-theme-vogue);
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
 
-    .why-urlwebwala hr {
-        border: 0;
-        height: 2px;
-        background-color: var(--tp-theme-redical);
-        width: 50px;
-        margin-bottom: 20px;
-    }
+        .why-urlwebwala hr {
+            border: 0;
+            height: 2px;
+            background-color: var(--tp-theme-redical);
+            width: 50px;
+            margin-bottom: 20px;
+        }
 
-    .why-urlwebwala ul {
-        list-style: none;
-        padding: 0;
-    }
+        .why-urlwebwala ul {
+            list-style: none;
+            padding: 0;
+        }
 
-    .why-urlwebwala li {
-        margin-bottom: 10px;
-        font-size: 16px;
-        color: #333;
-        display: flex;
-        align-items: center;
-    }
+        .why-urlwebwala li {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
 
-    .why-urlwebwala li i {
-        color: var(--tp-theme-redical);
-        font-size: 18px;
-        margin-right: 10px;
-    }
+        .why-urlwebwala li i {
+            color: var(--tp-theme-redical);
+            font-size: 18px;
+            margin-right: 10px;
+        }
     </style>
 
     <!-- Current Openings Section -->
@@ -153,50 +153,45 @@ include('header.php'); ?>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="it-service__item text-center wow tpfadeUp" data-wow-delay=".4s"
                         style="position: relative; height: 420px;">
-                        <!-- Current Openings (Top-Left Corner) -->
                         <div class="current-openings"
                             style="position: absolute; top: 10px; left: 10px; background: var(--tp-theme-orange); color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 14px; font-weight: bold;">
-                            Openings: 5
+                            Openings: 2
                         </div>
 
-                        <!-- Preferred Experience (Top-Right Corner) -->
                         <div class="preferred-experience"
                             style="position: absolute; top: 10px; right: 10px; background: var(--tp-theme-redical); color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 14px;">
-                            Experience: 2 - 3 Years
+                            Experience: 0 - 1 Years
                         </div>
 
-                        <!-- Service Item Content -->
                         <div class="it-service__item-img mb-35">
-                            <img src="assets/img/services/icon/php-code.png" alt="PHP Internship" class="w-full"
+                            <img src="assets/img/services/icon/digitalmarketing.png" alt="PHP Internship" class="w-full"
                                 style="max-height: 100px; object-fit: contain;">
                         </div>
                         <h3 class="it-service__item-title mb-20">
-                            <a href="php-internship.php">PHP</a>
+                            <a href="php-internship.php">Digital Marketing (Work From Home - Remote)</a>
                         </h3>
                         <p class="mb-0">
-                            A popular scripting language especially suited to web development. Fast, flexible, and
-                            pragmatic, PHP powers everything from blogs to major websites worldwide.
+                            Enhance brand visibility through SEO, social media, content creation, and paid ads. Develop
+                            strategies, analyze
+                            performance, and drive online engagement for business growth.
                         </p>
                     </div>
                 </div>
 
                 <!-- Web Design Internship -->
-                <div class="col-lg-4 col-md-6 mb-4">
+                <!-- <div class="col-lg-4 col-md-6 mb-4">
                     <div class="it-service__item text-center wow tpfadeUp" data-wow-delay=".4s"
                         style="position: relative; height: 420px;">
-                        <!-- Current Openings (Top-Left Corner) -->
                         <div class="current-openings"
                             style="position: absolute; top: 10px; left: 10px; background: var(--tp-theme-orange); color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 14px; font-weight: bold;">
                             Openings: 5
                         </div>
 
-                        <!-- Preferred Experience (Top-Right Corner) -->
                         <div class="preferred-experience"
                             style="position: absolute; top: 10px; right: 10px; background: var(--tp-theme-redical); color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 14px;">
                             Experience: 2 - 3 Years
                         </div>
 
-                        <!-- Service Item Content -->
                         <div class="it-service__item-img mb-35">
                             <img src="assets/img/services/icon/design.png" alt="Web Design Internship" class="w-full"
                                 style="max-height: 100px; object-fit: contain;">
@@ -210,25 +205,22 @@ include('header.php'); ?>
                             a functional website using HTML, CSS, and JavaScript.
                         </p>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Flutter Internship -->
-                <div class="col-lg-4 col-md-6 mb-4">
+                <!-- <div class="col-lg-4 col-md-6 mb-4">
                     <div class="it-service__item text-center wow tpfadeUp" data-wow-delay=".4s"
                         style="position: relative; height: 420px;">
-                        <!-- Current Openings (Top-Left Corner) -->
                         <div class="current-openings"
                             style="position: absolute; top: 10px; left: 10px; background: var(--tp-theme-orange); color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 14px; font-weight: bold;">
                             Openings: 5
                         </div>
 
-                        <!-- Preferred Experience (Top-Right Corner) -->
                         <div class="preferred-experience"
                             style="position: absolute; top: 10px; right: 10px; background: var(--tp-theme-redical); color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 14px;">
                             Experience: 2 - 3 Years
                         </div>
 
-                        <!-- Service Item Content -->
                         <div class="it-service__item-img mb-35">
                             <img src="assets/img/services/icon/4642761@0.webp" alt="Flutter Internship" class="w-full"
                                 style="max-height: 100px; object-fit: contain;">
@@ -241,25 +233,22 @@ include('header.php'); ?>
                             desktop, and embedded experiences from a single codebase.
                         </p>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- Node JS Internship -->
-                <div class="col-lg-4 col-md-6 mb-4">
+                <!-- <div class="col-lg-4 col-md-6 mb-4">
                     <div class="it-service__item text-center wow tpfadeUp" data-wow-delay=".4s"
                         style="position: relative; height: 420px;">
-                        <!-- Current Openings (Top-Left Corner) -->
                         <div class="current-openings"
                             style="position: absolute; top: 10px; left: 10px; background: var(--tp-theme-orange); color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 14px; font-weight: bold;">
                             Openings: 5
                         </div>
 
-                        <!-- Preferred Experience (Top-Right Corner) -->
                         <div class="preferred-experience"
                             style="position: absolute; top: 10px; right: 10px; background: var(--tp-theme-redical); color: #fff; padding: 5px 10px; border-radius: 5px; font-size: 14px;">
                             Experience: 2 - 3 Years
                         </div>
 
-                        <!-- Service Item Content -->
                         <div class="it-service__item-img mb-35">
                             <img src="assets/img/services/icon/js_logo.png" alt="Node JS Internship" class="w-full"
                                 style="max-height: 100px; object-fit: contain;">
@@ -272,14 +261,15 @@ include('header.php'); ?>
                             tool for almost any kind of project!
                         </p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
 
     <div class="center-container">
-        <a href="about.php" class="tp-slider-btn orange-chat-color tp-btn-hover alt-color alt-bg-orange"
-            data-animation="tpfadeUp" data-delay=".9s">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdqBX3XPo447yZ-DgonR9oRX9kZqPAx0Sd5y1Lw4dx6O3kfiw/viewform?usp=dialog"
+            class="tp-slider-btn orange-chat-color tp-btn-hover alt-color alt-bg-orange" data-animation="tpfadeUp"
+            data-delay=".9s">
             <span class="mr-10">
                 <i class="fas fa-comments"></i>
                 <i class="fas fa-comments"></i>
@@ -290,13 +280,13 @@ include('header.php'); ?>
     </div>
 
     <style>
-    .center-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* Adjust the height as needed */
-        text-align: center;
-    }
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* Adjust the height as needed */
+            text-align: center;
+        }
     </style>
     <!-- CTA Area -->
 

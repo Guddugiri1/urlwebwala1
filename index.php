@@ -479,113 +479,113 @@ include('header.php');
             </div>
         </div>
         <style>
-        /* Overall container */
-        .unique-it-service {
-            padding: 60px 15px;
-        }
-
-        /* Section Title */
-        .unique-section__title {
-            font-size: 24px;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        .unique-section__subtitle {
-            display: inline-block;
-            padding: 5px 15px;
-            color: #ffffff;
-            background-color: #3498db;
-            border-radius: 25px;
-            font-size: 16px;
-        }
-
-        /* Scroll container (slider) */
-        .unique-scroll-container {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-        }
-
-        .unique-scroll-content {
-            display: flex;
-            gap: 20px;
-            animation: unique-auto-slide 20s linear infinite;
-        }
-
-        /* Service Item */
-        .unique-service-item {
-            flex: 0 0 auto;
-            width: 160px;
-            height: 160px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            perspective: 1000px;
-        }
-
-        /* 3D Box */
-        .unique-service-box {
-            width: 150px;
-            height: 150px;
-            background: #ffffff;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transform-style: preserve-3d;
-            transform: rotateY(0deg);
-            transition: transform 0.6s ease, box-shadow 0.3s ease;
-        }
-
-        .unique-service-box:hover {
-            transform: rotateY(20deg) rotateX(10deg);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
-        }
-
-        .unique-service-box img {
-            max-width: 80%;
-            max-height: 80%;
-            object-fit: contain;
-        }
-
-        /* Animation for continuous loop */
-        @keyframes unique-auto-slide {
-            0% {
-                transform: translateX(0%);
+            /* Overall container */
+            .unique-it-service {
+                padding: 60px 15px;
             }
 
-            100% {
-                transform: translateX(-50%);
-            }
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .unique-scroll-content {
-                gap: 10px;
-            }
-
-            .unique-service-item {
-                width: 120px;
-                height: 120px;
-            }
-
-            .unique-service-box {
-                width: 100px;
-                height: 100px;
-            }
-
+            /* Section Title */
             .unique-section__title {
-                font-size: 20px;
+                font-size: 24px;
+                color: #2c3e50;
+                margin-bottom: 10px;
+                font-weight: bold;
             }
 
             .unique-section__subtitle {
-                font-size: 14px;
+                display: inline-block;
+                padding: 5px 15px;
+                color: #ffffff;
+                background-color: #3498db;
+                border-radius: 25px;
+                font-size: 16px;
             }
-        }
+
+            /* Scroll container (slider) */
+            .unique-scroll-container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            .unique-scroll-content {
+                display: flex;
+                gap: 20px;
+                animation: unique-auto-slide 20s linear infinite;
+            }
+
+            /* Service Item */
+            .unique-service-item {
+                flex: 0 0 auto;
+                width: 160px;
+                height: 160px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                perspective: 1000px;
+            }
+
+            /* 3D Box */
+            .unique-service-box {
+                width: 150px;
+                height: 150px;
+                background: #ffffff;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform-style: preserve-3d;
+                transform: rotateY(0deg);
+                transition: transform 0.6s ease, box-shadow 0.3s ease;
+            }
+
+            .unique-service-box:hover {
+                transform: rotateY(20deg) rotateX(10deg);
+                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+            }
+
+            .unique-service-box img {
+                max-width: 80%;
+                max-height: 80%;
+                object-fit: contain;
+            }
+
+            /* Animation for continuous loop */
+            @keyframes unique-auto-slide {
+                0% {
+                    transform: translateX(0%);
+                }
+
+                100% {
+                    transform: translateX(-50%);
+                }
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .unique-scroll-content {
+                    gap: 10px;
+                }
+
+                .unique-service-item {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                .unique-service-box {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .unique-section__title {
+                    font-size: 20px;
+                }
+
+                .unique-section__subtitle {
+                    font-size: 14px;
+                }
+            }
         </style>
         <!-- Our Experties end  -->
 
@@ -623,15 +623,6 @@ include('header.php');
                             <div class="tp-it-author-info wow tpfadeUp" data-wow-delay=".5s">
                                 <p>Highly Tailored IT Design, Management & Support Services. It’s
                                     possible to simultaneously manage.</p>
-                                <!-- <div class="d-flex align-items-center">
-                           <div class="it-about-avata">
-                              <img src="assets/img/about/guddu.png" alt="">
-                           </div>
-                           <div class="it-about-name">
-                              <span>Head Of Idea</span>
-                              <b>Guddu Goswami</b>
-                           </div>
-                        </div> -->
                             </div>
                         </div>
                     </div>
@@ -650,86 +641,6 @@ include('header.php');
             </div>
         </div>
         <!-- Mission end  -->
-
-        <!--Our Work Starts-->
-        <!-- <div class="seo-feature-area seagreen-bg p-relative pt-120 pb-90">
-
-         <div class="seo-fea-line-share d-none d-xl-block">
-            <img src="assets/img/icons/seo-feature-line.png" alt="">
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-12">
-                  <div class="section-title-wraper text-center">
-                     <div class="tp-section">
-                        <h2 class="tp-section__title text-white mb-25 wow tpfadeUp" data-wow-delay=".3s">Our Working
-                           Process</h2>
-                        <p class="pb-60 wow tpfadeUp" data-wow-delay=".4s">Search Engine & Social Media Optimization
-                           Experts</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-xl-3 col-lg-6 wow tpfadeUp" data-wow-delay=".3s">
-                  <div class="seo-feature-item down text-center mb-30">
-                     <div class="seo-feature-item__icon p-relative">
-                        <span class="seo-circle-bg"><i class="flaticon-sketchbook"></i></span>
-                     </div>
-                     <div class="seo-feature-item__content mt-40">
-                        <h3 class="seo-feature-item__content-title mb-20"><a href="#">Strat From Sketch</a>
-                        </h3>
-                        <p>Begins with an exploration call to identify what you want.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-6 wow tpfadeUp" data-wow-delay=".4s">
-                  <div class="seo-feature-item up text-center mb-30">
-                     <div class="seo-feature-item__icon p-relative">
-                        <span class="seo-circle-bg"><i class="flaticon-settings"></i></span>
-                     </div>
-                     <div class="seo-feature-item__content mt-40">
-                        <h3 class="seo-feature-item__content-title mb-20"><a href="#">Creative Process</a> </h3>
-                        <p>Designing a digital layout and planning it.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-6 wow tpfadeUp" data-wow-delay=".5s">
-                  <div class="seo-feature-item text-center mb-30">
-                     <div class="seo-feature-item__icon p-relative">
-                        <span class="seo-circle-bg"><i class="flaticon-design"></i></span>
-                     </div>
-                     <div class="seo-feature-item__content mt-40">
-                        <h3 class="seo-feature-item__content-title mb-20"><a href="#">Design & Development</a>
-                        </h3>
-                        <p>Our professional teams are working to implement your concept.</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-6 wow tpfadeUp" data-wow-delay=".6s">
-                  <div class="seo-feature-item up text-center mb-30">
-                     <div class="seo-feature-item__icon p-relative">
-                        <span class="seo-circle-bg"><i class="flaticon-box"></i></span>
-                     </div>
-                     <div class="seo-feature-item__content mt-40">
-                        <h3 class="seo-feature-item__content-title mb-20"><a href="#">Final Product</a> </h3>
-                        <p>Delivering your product following extensive testing.</p>
-                     </div>
-                  </div>
-               </div>
-
-            </div>
-         </div>
-         <div class="seo-fea-shapes">
-            <div class="icon-left wow tpfadeUp" data-wow-delay=".3s">
-               <span><i class="flaticon-megaphone"></i></span>
-            </div>
-            <div class="icon-right wow tpfadeUp" data-wow-delay=".4s">
-               <span><i class="flaticon-globe"></i></span>
-            </div>
-         </div>
-      </div> -->
-        <!--Our Work End-->
 
         <!--Clint Start-->
         <div class="unique-client-service pt-120 pb-90">
@@ -826,113 +737,113 @@ include('header.php');
             </div>
         </div>
         <style>
-        /* Overall container */
-        .unique-client-service {
-            padding: 60px 15px;
-        }
-
-        /* Section Title */
-        .unique-section__title {
-            font-size: 24px;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        .unique-section__subtitle {
-            display: inline-block;
-            padding: 5px 15px;
-            color: #ffffff;
-            background-color: #3498db;
-            border-radius: 25px;
-            font-size: 16px;
-        }
-
-        /* Scroll container (slider) */
-        .unique-scroll-container {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-        }
-
-        .unique-scroll-content {
-            display: flex;
-            gap: 20px;
-            animation: unique-auto-slide 20s linear infinite;
-        }
-
-        /* Client Item */
-        .unique-client-item {
-            flex: 0 0 auto;
-            width: 160px;
-            height: 160px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            perspective: 1000px;
-        }
-
-        /* 3D Box */
-        .unique-client-box {
-            width: 150px;
-            height: 150px;
-            background: #ffffff;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transform-style: preserve-3d;
-            transform: rotateY(0deg);
-            transition: transform 0.6s ease, box-shadow 0.3s ease;
-        }
-
-        .unique-client-box:hover {
-            transform: rotateY(20deg) rotateX(10deg);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
-        }
-
-        .unique-client-box img {
-            max-width: 80%;
-            max-height: 80%;
-            object-fit: contain;
-        }
-
-        /* Animation for continuous loop */
-        @keyframes unique-auto-slide {
-            0% {
-                transform: translateX(0%);
+            /* Overall container */
+            .unique-client-service {
+                padding: 60px 15px;
             }
 
-            100% {
-                transform: translateX(-50%);
-            }
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .unique-scroll-content {
-                gap: 10px;
-            }
-
-            .unique-client-item {
-                width: 120px;
-                height: 120px;
-            }
-
-            .unique-client-box {
-                width: 100px;
-                height: 100px;
-            }
-
+            /* Section Title */
             .unique-section__title {
-                font-size: 20px;
+                font-size: 24px;
+                color: #2c3e50;
+                margin-bottom: 10px;
+                font-weight: bold;
             }
 
             .unique-section__subtitle {
-                font-size: 14px;
+                display: inline-block;
+                padding: 5px 15px;
+                color: #ffffff;
+                background-color: #3498db;
+                border-radius: 25px;
+                font-size: 16px;
             }
-        }
+
+            /* Scroll container (slider) */
+            .unique-scroll-container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            .unique-scroll-content {
+                display: flex;
+                gap: 20px;
+                animation: unique-auto-slide 20s linear infinite;
+            }
+
+            /* Client Item */
+            .unique-client-item {
+                flex: 0 0 auto;
+                width: 160px;
+                height: 160px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                perspective: 1000px;
+            }
+
+            /* 3D Box */
+            .unique-client-box {
+                width: 150px;
+                height: 150px;
+                background: #ffffff;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform-style: preserve-3d;
+                transform: rotateY(0deg);
+                transition: transform 0.6s ease, box-shadow 0.3s ease;
+            }
+
+            .unique-client-box:hover {
+                transform: rotateY(20deg) rotateX(10deg);
+                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+            }
+
+            .unique-client-box img {
+                max-width: 80%;
+                max-height: 80%;
+                object-fit: contain;
+            }
+
+            /* Animation for continuous loop */
+            @keyframes unique-auto-slide {
+                0% {
+                    transform: translateX(0%);
+                }
+
+                100% {
+                    transform: translateX(-50%);
+                }
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .unique-scroll-content {
+                    gap: 10px;
+                }
+
+                .unique-client-item {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                .unique-client-box {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .unique-section__title {
+                    font-size: 20px;
+                }
+
+                .unique-section__subtitle {
+                    font-size: 14px;
+                }
+            }
         </style>
         <!--Clint Start-->
 
@@ -1101,30 +1012,199 @@ include('header.php');
                 </div>
             </div>
         </div>
+        <br>
 
         <!-- clinr count end -->
 
         <!--Blog Start-->
-        <div class="unique-client-service pt-120 pb-90">
-            <div class="container">
-                <div class="section-title-wrapper pb-55">
-                    <div class="tp-section text-center">
-                        <span class="tp-section__subtitle vogue-text-color white-bg mb-15 wow tpfadeUp"><i
-                                class="before-border"></i>
-                            Latest News & Blogs <i class="after-border"></i></span>
-                        <h2 class="tp-section__title vogue-text-color wow tpfadeUp" data-wow-delay=".3s">What's New in
-                            the Business Area to Know
-                        </h2>
-                        <p>Don’t focus on having a great blog. Focus on producing a blog that’s great for readers.</p>
+        <div class="tp-it-testimonial fix pb-120">
+            <div class="it-testi-wraper theme-bg-2 pt-120 pb-125">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-12 col-md-8">
+                            <div class="section-title-wraper">
+                                <div class="tp-section">
+                                    <span class="tp-section__subtitle vogue-text-color white-bg mb-15"><i
+                                            class="before-border"></i>
+                                        Latest News & Blogs</span>
+                                    <h2 class="tp-section__title vogue-text-color">What's New in the Business Area
+                                        to Know</h2>
+                                    <p>Don’t focus on having a great blog. Focus on producing a blog that’s great for
+                                        readers.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-none d-md-block text-end">
+                            <div class="it-testi-navigation p-relative pt-40">
+                                <a href="blog.php"
+                                    class="tp-slider-btn orange-chat-color tp-btn-hover alt-color alt-bg-orange"
+                                    data-animation="tpfadeUp" data-delay=".9s">
+                                    <span class="mr-10">
+                                        <i class="fas fa-comments"></i>
+                                        <i class="fas fa-comments"></i>
+                                    </span>
+                                    All New Articles
+                                    <b></b>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <style>
+                .unique-card-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 2rem;
+                    max-width: 1200px;
+                    margin: 2rem auto;
+                    padding: 1rem;
+                }
+
+                .unique-card {
+                    display: flex;
+                    flex-direction: column;
+                    width: clamp(18rem, 90%, 22rem);
+                    overflow: hidden;
+                    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+                    border-radius: 1em;
+                    background: linear-gradient(to right, #ffffff, #ece9e6);
+                }
+
+                .unique-card img {
+                    width: 100%;
+                    display: block;
+                    object-fit: cover;
+                }
+
+                .unique-card-content {
+                    padding: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                }
+
+                .unique-category-tag {
+                    align-self: flex-start;
+                    padding: 0.25em 0.75em;
+                    border-radius: 1em;
+                    font-size: 0.75rem;
+                    color: #fafafa;
+                }
+
+                .unique-tech {
+                    background: linear-gradient(to bottom, var(--tp-theme-orange), var(--tp-theme-redical));
+                }
+
+                .unique-food {
+                    background: linear-gradient(to bottom, var(--tp-theme-orange), var(--tp-theme-redical));
+                }
+
+                .unique-card-footer {
+                    display: flex;
+                    padding: 1rem;
+                    margin-top: auto;
+                }
+
+                .unique-author {
+                    display: flex;
+                    gap: 0.5rem;
+                    align-items: center;
+                }
+
+                .unique-author img {
+                    border-radius: 50%;
+                }
+
+                @media (max-width: 768px) {
+                    .unique-card-container {
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                }
+            </style>
+
+            <div class="unique-card-container">
+                <div class="unique-card">
+                    <img src="assets/img/newimages/5199286.jpg" alt="tech_image">
+                    <div class="unique-card-content">
+                        <span class="unique-category-tag unique-tech">Technology</span>
+                        <h4 class="it-service__item-title">What's new in 2022 Tech</h4>
+                        <p class="text-grey wow tpfadeUp"
+                            style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;">Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Sequi perferendis
+                            molestiae
+                            non
+                            nemo
+                            doloribus.</p>
+                    </div>
+                    <div class="unique-card-footer">
+                        <div class="unique-author">
+                            <img src="assets/img/logo/fevicon.png" alt="user1" style="height: 40px; width: 40px">
+                            <div>
+                                <h5>Urlwebwala</h5>
+                                <small>2h ago</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="unique-card">
+                    <img src="assets/img/newimages/5199286.jpg" alt="food_image">
+                    <div class="unique-card-content">
+                        <span class="unique-category-tag unique-food">Technology</span>
+                        <h4 class="it-service__item-title">Delicious Food</h4>
+                        <p class="text-grey wow tpfadeUp"
+                            style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;">Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Sequi perferendis
+                            molestiae
+                            non
+                            nemo
+                            doloribus.</p>
+                    </div>
+                    <div class="unique-card-footer">
+                        <div class="unique-author">
+                            <img src="assets/img/logo/fevicon.png" alt="user1" style="height: 40px; width: 40px">
+                            <div>
+                                <h5>Urlwebwala</h5>
+                                <small>Yesterday</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="unique-card">
+                    <img src="assets/img/newimages/5199286.jpg" alt="food_image">
+                    <div class="unique-card-content">
+                        <span class="unique-category-tag unique-food">Unity Development</span>
+                        <h4 class="it-service__item-title">Delicious Food</h4>
+                        <p class="text-grey wow tpfadeUp"
+                            style="visibility: visible;animation-name: tpfadeUp;font-size: 18px;">Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Sequi perferendis
+                            molestiae
+                            non
+                            nemo
+                            doloribus.</p>
+                    </div>
+                    <div class="unique-card-footer">
+                        <div class="unique-author">
+                            <img src="assets/img/logo/fevicon.png" alt="user1" style="height: 40px; width: 40px">
+                            <div>
+                                <h5>Urlwebwala</h5>
+                                <small>Yesterday</small>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
+
         <!--Blog end-->
 
         <!-- faq area start  -->
-        <div class="seo-faq-area sv-fea-area pt-120">
+        <div class="seo-faq-area sv-fea-area pt-120" style="padding-top: 0px;">
             <div class="container">
                 <div class="col-12 col-md-8">
                     <div class="section-title-wrapper">
@@ -1159,13 +1239,15 @@ include('header.php');
                                     <div id="collapseOne" class="accordion-collapse collapse show"
                                         aria-labelledby="faq1" data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            We follow a highly organized and comprehensive process to ensure the website
+                                            We follow a highly organized and comprehensive process to ensure the
+                                            website
                                             or
                                             application
                                             meets your requirements. We start with a deep analysis of the project,
                                             prepare an
                                             action
-                                            plan, create user-friendly designs, develop the project, and finally deploy
+                                            plan, create user-friendly designs, develop the project, and finally
+                                            deploy
                                             the
                                             website/application.
                                         </div>
@@ -1204,9 +1286,11 @@ include('header.php');
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="faq3"
                                         data-bs-parent="#accordionExample">
                                         <div class="accordion-body">
-                                            We provide a one-stop solution for all your business requirements. Our team
+                                            We provide a one-stop solution for all your business requirements. Our
+                                            team
                                             meticulously
-                                            plans the Software Development Life Cycle, including analysis, monitoring,
+                                            plans the Software Development Life Cycle, including analysis,
+                                            monitoring,
                                             and
                                             necessary
                                             customizations from the initial project idea to deployment. Therefore,
