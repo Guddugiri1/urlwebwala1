@@ -1,0 +1,111 @@
+/* Root Variables for Easy Customization */
+:root {
+  --loader-size: 15vw; /* Responsive size based on viewport */
+  --logo-size: 9vw; /* Responsive logo size */
+  --border-thickness: 0.8vw; /* Adaptive border thickness */
+  --tp-theme-redical: #ff3d00; /* Custom Red */
+  --tp-theme-orange: #ff9100; /* Custom Orange */
+}
+
+/* Full-Screen Preloader Background with Blur Effect */
+.preloaderBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  z-index: 9999;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Preloader Container */
+.preloader-container {
+  position: relative;
+  width: var(--loader-size);
+  height: var(--loader-size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Logo */
+.preloader {
+  background: url(./assets/img/logo/loader1.png) no-repeat center;
+  background-size: contain;
+  width: var(--logo-size);
+  height: var(--logo-size);
+  position: absolute;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Rotating Circular Progress Bar */
+.loader-circle {
+  position: absolute;
+  width: var(--loader-size);
+  height: var(--loader-size);
+  border: var(--border-thickness) solid rgba(243, 243, 243, 0.8); /* Light gray background */
+  border-top: var(--border-thickness) solid transparent;
+  border-left: var(--border-thickness) solid var(--tp-theme-redical);
+  border-right: var(--border-thickness) solid var(--tp-theme-orange);
+  border-radius: 50%;
+  animation: spin 1.5s linear infinite;
+  will-change: transform;
+}
+
+/* Rotating Animation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Pulse Animation for the Logo */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Fade-In Effect for Smooth Appearance */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  :root {
+    --loader-size: 20vw; /* Larger on smaller screens */
+    --logo-size: 12vw;
+    --border-thickness: 1vw;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --loader-size: 25vw; /* Even larger for mobile */
+    --logo-size: 15vw;
+    --border-thickness: 1.2vw;
+  }
+}

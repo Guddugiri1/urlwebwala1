@@ -54,17 +54,18 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZ5QVDBENP"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-NZ5QVDBENP');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-NZ5QVDBENP');
     </script>
 
 
     <!-- CSS Files -->
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome-pro.css">
     <link rel="stylesheet" href="assets/css/meanmenu.css">
@@ -78,10 +79,29 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+
 </head>
 
 
 <body>
+
+    <body onload="preloader()">
+        <!-- Preloader Section -->
+        <div class="preloaderBg" id="preloader">
+            <div class="preloader-container">
+                <!-- Rotating Progress Ring -->
+                <div class="loader-circle"></div>
+                <!-- Centered Image -->
+                <div class="preloader"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+
+
+
+
+
     <header>
         <div class="tp-header__1 theme-bg p-relative">
             <div id="header-sticky" class="tp-header__1-main header-border-button pl-105 pr-105">
@@ -232,24 +252,24 @@
     <div class="body-overlay"></div>
     <!-- back to top start  -->
     <style>
-    .float {
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 53.1px;
-        right: 50px;
-        background-color: #25d366;
-        color: #FFF;
-        border-radius: 50px;
-        text-align: center;
-        font-size: 30px;
-        box-shadow: 2px 2px 3px #999;
-        z-index: 100;
-    }
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 53.1px;
+            right: 50px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
 
-    .my-float {
-        margin-top: 16px;
-    }
+        .my-float {
+            margin-top: 16px;
+        }
     </style>
 
     <a href="#main-wrapper" id="tp-backto-top" class="tp-back-to-top show">
