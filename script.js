@@ -1,5 +1,5 @@
 function preloader() {
-  setTimeout(showPage, 4000); // Show content after 5 seconds
+  setTimeout(showPage, 2000); // Show content after 5 seconds
 }
 
 function showPage() {
