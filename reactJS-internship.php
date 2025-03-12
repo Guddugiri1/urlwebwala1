@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'React JS Internship';
-$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+$description = 'Transform your business with expert website design services in India. Get responsive, custom websites that drive growth and enhance user experience!.';
 include('header.php');?>
 
 

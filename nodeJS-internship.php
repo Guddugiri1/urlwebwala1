@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Node JS Internship';
-$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+$description = 'Create stunning digital cards with expert design services. Custom, creative, and professional digital card designs for your business. Start designing today!"';
 include('header.php');?>
 
 <div class="body-overlay"></div>

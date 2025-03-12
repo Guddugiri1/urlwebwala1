@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = 'Web Development';
-$description = 'Get responsive, SEO-friendly web development in Ahmedabad. Urlwebwala LLP creates user-friendly websites for businesses.';
+$description = 'Expert app developer services in India! We create high-performance, user-friendly mobile apps for businesses & startups. Get your app built today!.';
 include('header.php');?>
 
 

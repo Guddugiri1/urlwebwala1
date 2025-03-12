@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = 'Hosting Services';
-$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+$description = 'Grow your brand with top marketing agencies! SEO, PPC, social media & more to increase leads, traffic, and sales. Let’s take your business to new heights.';
 include('header.php');?>
 
 <div class="body-overlay"></div>

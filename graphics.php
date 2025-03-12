@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Graphics & Logos';
-$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+$description = 'Top app development firm creating high-performance mobile & web apps. Innovate, scale, and succeed with our expert solutions. Let’s build your dream app!.';
 include('header.php');?>
 
 <head>

@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Flutter Internship';
-$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+$description = 'Boost your business with expert website services in India. Get custom design, development, and maintenance solutions tailored to your needs. Start today.';
 include('header.php');?>
 
 

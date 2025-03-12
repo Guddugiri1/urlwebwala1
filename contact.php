@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = 'Contect Us';
-$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+$description = 'Get reliable, fast, and secure website hosting in India. Perfect for developers & businesses. Boost your site’s speed and performance today.';
 include('header.php');?>
 
 <!-- <head>

@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'About';
-$description = 'Learn about Urlwebwala LLP, a trusted IT solutions provider in Ahmedabad, specializing in web development, apps, and digital marketing.';
+$description = 'Boost your online sales with a top eCommerce development company! Get custom, high-performing eCommerce solutions tailored to your business needs.';
 include('header.php');?>
 <main>
     <div class="breadcrumb__area theme-bg pt-120 pb-120" data-background="assets/img/breadcrumb/breadcrumb-bg.png">

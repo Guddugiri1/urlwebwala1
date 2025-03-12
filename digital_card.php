@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Digital Card Design';
-$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+$description = 'Boost your brand with expert digital marketing services! SEO, PPC, social media & more—drive traffic, leads, and sales. Get customized strategies today!.';
 include('header.php'); ?>
 
 <head>

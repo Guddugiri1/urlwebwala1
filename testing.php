@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = 'QA Testing';
-$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+$description = 'Boost your brand with our expert digital marketing agency! SEO, PPC, social media & more—drive traffic, leads & sales. Let’s grow your business today.';
 include('header.php');?>
 
 <div class="body-overlay"></div>

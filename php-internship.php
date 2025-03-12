@@ -1,7 +1,7 @@
 <?php
 
 $pageTitle = 'PHP Internship';
-$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+$description = 'Build your dream app with expert development services. Boost your business with custom mobile & web apps. Get started today!".';
 include('header.php');?>
 
 

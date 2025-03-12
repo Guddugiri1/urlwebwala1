@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Web Design Internship';
-$description = 'Urlwebwala LLP provides IT solutions in Ahmedabad, including web development, mobile apps, and digital marketing.';
+$description = 'Discover top logo design companies in India. Get custom, creative logos that elevate your brand and business. Start designing today.';
 include('header.php');?>
 
 <div class="body-overlay"></div>

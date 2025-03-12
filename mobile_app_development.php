@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = 'App Development';
-$description = 'Build scalable mobile apps for Android & iOS with Urlwebwala LLP. Innovative solutions tailored for your business.';
+$description = 'Top app development company in India! We build high-quality, custom mobile apps for startups & businesses. Get innovative solutions tailored to your needs!.';
 include('header.php');?>
 
 <div class="body-overlay"></div>

@@ -1,6 +1,5 @@
 <?php 
-$pageTitle = 'Home';
-$description = 'Urlwebwala LLP offers web development, mobile apps, and digital marketing in Ahmedabad. Boost your business with expert IT solutions.';
+$pageTitle = 'Get top-rated web design & development services in India. We craft stunning, fast, and user-friendly websites to grow your business. Contact us today!.';
 include('header.php');
 ?>
 <main>
@@ -479,113 +478,113 @@ include('header.php');
             </div>
         </div>
         <style>
-            /* Overall container */
-            .unique-it-service {
-                padding: 60px 15px;
+        /* Overall container */
+        .unique-it-service {
+            padding: 60px 15px;
+        }
+
+        /* Section Title */
+        .unique-section__title {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .unique-section__subtitle {
+            display: inline-block;
+            padding: 5px 15px;
+            color: #ffffff;
+            background-color: #3498db;
+            border-radius: 25px;
+            font-size: 16px;
+        }
+
+        /* Scroll container (slider) */
+        .unique-scroll-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .unique-scroll-content {
+            display: flex;
+            gap: 20px;
+            animation: unique-auto-slide 20s linear infinite;
+        }
+
+        /* Service Item */
+        .unique-service-item {
+            flex: 0 0 auto;
+            width: 160px;
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            perspective: 1000px;
+        }
+
+        /* 3D Box */
+        .unique-service-box {
+            width: 150px;
+            height: 150px;
+            background: #ffffff;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform-style: preserve-3d;
+            transform: rotateY(0deg);
+            transition: transform 0.6s ease, box-shadow 0.3s ease;
+        }
+
+        .unique-service-box:hover {
+            transform: rotateY(20deg) rotateX(10deg);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+        }
+
+        .unique-service-box img {
+            max-width: 80%;
+            max-height: 80%;
+            object-fit: contain;
+        }
+
+        /* Animation for continuous loop */
+        @keyframes unique-auto-slide {
+            0% {
+                transform: translateX(0%);
             }
 
-            /* Section Title */
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .unique-scroll-content {
+                gap: 10px;
+            }
+
+            .unique-service-item {
+                width: 120px;
+                height: 120px;
+            }
+
+            .unique-service-box {
+                width: 100px;
+                height: 100px;
+            }
+
             .unique-section__title {
-                font-size: 24px;
-                color: #2c3e50;
-                margin-bottom: 10px;
-                font-weight: bold;
+                font-size: 20px;
             }
 
             .unique-section__subtitle {
-                display: inline-block;
-                padding: 5px 15px;
-                color: #ffffff;
-                background-color: #3498db;
-                border-radius: 25px;
-                font-size: 16px;
+                font-size: 14px;
             }
-
-            /* Scroll container (slider) */
-            .unique-scroll-container {
-                position: relative;
-                overflow: hidden;
-                width: 100%;
-            }
-
-            .unique-scroll-content {
-                display: flex;
-                gap: 20px;
-                animation: unique-auto-slide 20s linear infinite;
-            }
-
-            /* Service Item */
-            .unique-service-item {
-                flex: 0 0 auto;
-                width: 160px;
-                height: 160px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                perspective: 1000px;
-            }
-
-            /* 3D Box */
-            .unique-service-box {
-                width: 150px;
-                height: 150px;
-                background: #ffffff;
-                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-                border-radius: 10px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                transform-style: preserve-3d;
-                transform: rotateY(0deg);
-                transition: transform 0.6s ease, box-shadow 0.3s ease;
-            }
-
-            .unique-service-box:hover {
-                transform: rotateY(20deg) rotateX(10deg);
-                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
-            }
-
-            .unique-service-box img {
-                max-width: 80%;
-                max-height: 80%;
-                object-fit: contain;
-            }
-
-            /* Animation for continuous loop */
-            @keyframes unique-auto-slide {
-                0% {
-                    transform: translateX(0%);
-                }
-
-                100% {
-                    transform: translateX(-50%);
-                }
-            }
-
-            /* Responsive adjustments */
-            @media (max-width: 768px) {
-                .unique-scroll-content {
-                    gap: 10px;
-                }
-
-                .unique-service-item {
-                    width: 120px;
-                    height: 120px;
-                }
-
-                .unique-service-box {
-                    width: 100px;
-                    height: 100px;
-                }
-
-                .unique-section__title {
-                    font-size: 20px;
-                }
-
-                .unique-section__subtitle {
-                    font-size: 14px;
-                }
-            }
+        }
         </style>
         <!-- Our Experties end  -->
 
@@ -737,113 +736,113 @@ include('header.php');
             </div>
         </div>
         <style>
-            /* Overall container */
-            .unique-client-service {
-                padding: 60px 15px;
+        /* Overall container */
+        .unique-client-service {
+            padding: 60px 15px;
+        }
+
+        /* Section Title */
+        .unique-section__title {
+            font-size: 24px;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .unique-section__subtitle {
+            display: inline-block;
+            padding: 5px 15px;
+            color: #ffffff;
+            background-color: #3498db;
+            border-radius: 25px;
+            font-size: 16px;
+        }
+
+        /* Scroll container (slider) */
+        .unique-scroll-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .unique-scroll-content {
+            display: flex;
+            gap: 20px;
+            animation: unique-auto-slide 20s linear infinite;
+        }
+
+        /* Client Item */
+        .unique-client-item {
+            flex: 0 0 auto;
+            width: 160px;
+            height: 160px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            perspective: 1000px;
+        }
+
+        /* 3D Box */
+        .unique-client-box {
+            width: 150px;
+            height: 150px;
+            background: #ffffff;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform-style: preserve-3d;
+            transform: rotateY(0deg);
+            transition: transform 0.6s ease, box-shadow 0.3s ease;
+        }
+
+        .unique-client-box:hover {
+            transform: rotateY(20deg) rotateX(10deg);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+        }
+
+        .unique-client-box img {
+            max-width: 80%;
+            max-height: 80%;
+            object-fit: contain;
+        }
+
+        /* Animation for continuous loop */
+        @keyframes unique-auto-slide {
+            0% {
+                transform: translateX(0%);
             }
 
-            /* Section Title */
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .unique-scroll-content {
+                gap: 10px;
+            }
+
+            .unique-client-item {
+                width: 120px;
+                height: 120px;
+            }
+
+            .unique-client-box {
+                width: 100px;
+                height: 100px;
+            }
+
             .unique-section__title {
-                font-size: 24px;
-                color: #2c3e50;
-                margin-bottom: 10px;
-                font-weight: bold;
+                font-size: 20px;
             }
 
             .unique-section__subtitle {
-                display: inline-block;
-                padding: 5px 15px;
-                color: #ffffff;
-                background-color: #3498db;
-                border-radius: 25px;
-                font-size: 16px;
+                font-size: 14px;
             }
-
-            /* Scroll container (slider) */
-            .unique-scroll-container {
-                position: relative;
-                overflow: hidden;
-                width: 100%;
-            }
-
-            .unique-scroll-content {
-                display: flex;
-                gap: 20px;
-                animation: unique-auto-slide 20s linear infinite;
-            }
-
-            /* Client Item */
-            .unique-client-item {
-                flex: 0 0 auto;
-                width: 160px;
-                height: 160px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                perspective: 1000px;
-            }
-
-            /* 3D Box */
-            .unique-client-box {
-                width: 150px;
-                height: 150px;
-                background: #ffffff;
-                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-                border-radius: 10px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                transform-style: preserve-3d;
-                transform: rotateY(0deg);
-                transition: transform 0.6s ease, box-shadow 0.3s ease;
-            }
-
-            .unique-client-box:hover {
-                transform: rotateY(20deg) rotateX(10deg);
-                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
-            }
-
-            .unique-client-box img {
-                max-width: 80%;
-                max-height: 80%;
-                object-fit: contain;
-            }
-
-            /* Animation for continuous loop */
-            @keyframes unique-auto-slide {
-                0% {
-                    transform: translateX(0%);
-                }
-
-                100% {
-                    transform: translateX(-50%);
-                }
-            }
-
-            /* Responsive adjustments */
-            @media (max-width: 768px) {
-                .unique-scroll-content {
-                    gap: 10px;
-                }
-
-                .unique-client-item {
-                    width: 120px;
-                    height: 120px;
-                }
-
-                .unique-client-box {
-                    width: 100px;
-                    height: 100px;
-                }
-
-                .unique-section__title {
-                    font-size: 20px;
-                }
-
-                .unique-section__subtitle {
-                    font-size: 14px;
-                }
-            }
+        }
         </style>
         <!--Clint Start-->
 
@@ -1053,77 +1052,77 @@ include('header.php');
                 </div>
             </div>
             <style>
+            .unique-card-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 2rem;
+                max-width: 1200px;
+                margin: 2rem auto;
+                padding: 1rem;
+            }
+
+            .unique-card {
+                display: flex;
+                flex-direction: column;
+                width: clamp(18rem, 90%, 22rem);
+                overflow: hidden;
+                box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+                border-radius: 1em;
+                background: linear-gradient(to right, #ffffff, #ece9e6);
+            }
+
+            .unique-card img {
+                width: 100%;
+                display: block;
+                object-fit: cover;
+            }
+
+            .unique-card-content {
+                padding: 1rem;
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .unique-category-tag {
+                align-self: flex-start;
+                padding: 0.25em 0.75em;
+                border-radius: 1em;
+                font-size: 0.75rem;
+                color: #fafafa;
+            }
+
+            .unique-tech {
+                background: linear-gradient(to bottom, var(--tp-theme-orange), var(--tp-theme-redical));
+            }
+
+            .unique-food {
+                background: linear-gradient(to bottom, var(--tp-theme-orange), var(--tp-theme-redical));
+            }
+
+            .unique-card-footer {
+                display: flex;
+                padding: 1rem;
+                margin-top: auto;
+            }
+
+            .unique-author {
+                display: flex;
+                gap: 0.5rem;
+                align-items: center;
+            }
+
+            .unique-author img {
+                border-radius: 50%;
+            }
+
+            @media (max-width: 768px) {
                 .unique-card-container {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    gap: 2rem;
-                    max-width: 1200px;
-                    margin: 2rem auto;
-                    padding: 1rem;
-                }
-
-                .unique-card {
-                    display: flex;
                     flex-direction: column;
-                    width: clamp(18rem, 90%, 22rem);
-                    overflow: hidden;
-                    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
-                    border-radius: 1em;
-                    background: linear-gradient(to right, #ffffff, #ece9e6);
-                }
-
-                .unique-card img {
-                    width: 100%;
-                    display: block;
-                    object-fit: cover;
-                }
-
-                .unique-card-content {
-                    padding: 1rem;
-                    display: flex;
-                    flex-direction: column;
-                    gap: 0.5rem;
-                }
-
-                .unique-category-tag {
-                    align-self: flex-start;
-                    padding: 0.25em 0.75em;
-                    border-radius: 1em;
-                    font-size: 0.75rem;
-                    color: #fafafa;
-                }
-
-                .unique-tech {
-                    background: linear-gradient(to bottom, var(--tp-theme-orange), var(--tp-theme-redical));
-                }
-
-                .unique-food {
-                    background: linear-gradient(to bottom, var(--tp-theme-orange), var(--tp-theme-redical));
-                }
-
-                .unique-card-footer {
-                    display: flex;
-                    padding: 1rem;
-                    margin-top: auto;
-                }
-
-                .unique-author {
-                    display: flex;
-                    gap: 0.5rem;
                     align-items: center;
                 }
-
-                .unique-author img {
-                    border-radius: 50%;
-                }
-
-                @media (max-width: 768px) {
-                    .unique-card-container {
-                        flex-direction: column;
-                        align-items: center;
-                    }
-                }
+            }
             </style>
 
             <div class="unique-card-container">

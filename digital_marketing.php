@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = 'Digital Marketing';
-$description = 'SEO, PPC, and social media marketing from Urlwebwala LLP. Improve online visibility and grow your audience.';
+$description = 'Top Android app making company in India! We build high-quality, custom Android apps for startups & businesses. Get innovative solutions tailored to you!.';
 include('header.php');?>
 
 <div class="body-overlay"></div>

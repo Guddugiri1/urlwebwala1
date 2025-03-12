@@ -1,11 +1,7 @@
-<?php include('header.php');?>
-
-<!-- <head>
-    <title>Complete IT Services | Urlwebwala LLP</title>
-    <meta name="description"
-        content="Explore our IT services, including web development, mobile apps, and digital marketing. Elevate your brand with Urlwebwala LLP.">
-    <link rel="canonical" href="https://www.urlwebwala.com/services" />
-</head> -->
+<?php
+$pageTitle = 'Services';
+$description = 'Boost your business with a cutting-edge mobile app! Expert mobile app development for iOS & Android. Get a sleek, high-performance app today!.'; 
+include('header.php');?>
 
 <!-- off canvas area  -->
 <main>
