@@ -33,12 +33,12 @@ include('header.php'); ?>
                                     <span>Good Expertise in Website and App Development</span>
                                 </div>
                                 <div class="law-about-img-1">
-                                    <img src="assets/img/about/Untitled design.png" alt=" Expertise in Development">
+                                    <img src="assets/img/about/aboutwebwala.png" alt=" Expertise in Development">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="law-about-img-2">
-                                    <img src="assets/img/about/Aboutus1.png" alt="About Us">
+                                    <img src="assets/img/about/aboutUrl.png" alt="About Us">
                                 </div>
                             </div>
                         </div>
@@ -127,8 +127,7 @@ include('header.php'); ?>
     }
     </style>
 
-    <!-- Current Openings Section -->
-    <!-- Current Openings Section -->
+    <!-- Current Openings Section start -->
     <div class="tp-it-service pt-120">
         <div class="container">
             <div class="row">

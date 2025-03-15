@@ -149,13 +149,13 @@ include('header.php');
                                     <span>Good Expertise In Website And App Development</span>
                                 </div>
                                 <div class="law-about-img-1">
-                                    <img src="assets/img/about/Aboutus1.png" alt="">
+                                    <img src="assets/img/about/aboutwebwala.png" alt="">
 
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="law-about-img-2">
-                                    <img src="assets/img/about/Aboutus2.png" alt="">
+                                    <img src="assets/img/about/aboutUrl.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -478,113 +478,113 @@ include('header.php');
             </div>
         </div>
         <style>
-        /* Overall container */
-        .unique-it-service {
-            padding: 60px 15px;
-        }
-
-        /* Section Title */
-        .unique-section__title {
-            font-size: 24px;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        .unique-section__subtitle {
-            display: inline-block;
-            padding: 5px 15px;
-            color: #ffffff;
-            background-color: #3498db;
-            border-radius: 25px;
-            font-size: 16px;
-        }
-
-        /* Scroll container (slider) */
-        .unique-scroll-container {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-        }
-
-        .unique-scroll-content {
-            display: flex;
-            gap: 20px;
-            animation: unique-auto-slide 20s linear infinite;
-        }
-
-        /* Service Item */
-        .unique-service-item {
-            flex: 0 0 auto;
-            width: 160px;
-            height: 160px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            perspective: 1000px;
-        }
-
-        /* 3D Box */
-        .unique-service-box {
-            width: 150px;
-            height: 150px;
-            background: #ffffff;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transform-style: preserve-3d;
-            transform: rotateY(0deg);
-            transition: transform 0.6s ease, box-shadow 0.3s ease;
-        }
-
-        .unique-service-box:hover {
-            transform: rotateY(20deg) rotateX(10deg);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
-        }
-
-        .unique-service-box img {
-            max-width: 80%;
-            max-height: 80%;
-            object-fit: contain;
-        }
-
-        /* Animation for continuous loop */
-        @keyframes unique-auto-slide {
-            0% {
-                transform: translateX(0%);
+            /* Overall container */
+            .unique-it-service {
+                padding: 60px 15px;
             }
 
-            100% {
-                transform: translateX(-50%);
-            }
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .unique-scroll-content {
-                gap: 10px;
-            }
-
-            .unique-service-item {
-                width: 120px;
-                height: 120px;
-            }
-
-            .unique-service-box {
-                width: 100px;
-                height: 100px;
-            }
-
+            /* Section Title */
             .unique-section__title {
-                font-size: 20px;
+                font-size: 24px;
+                color: #2c3e50;
+                margin-bottom: 10px;
+                font-weight: bold;
             }
 
             .unique-section__subtitle {
-                font-size: 14px;
+                display: inline-block;
+                padding: 5px 15px;
+                color: #ffffff;
+                background-color: #3498db;
+                border-radius: 25px;
+                font-size: 16px;
             }
-        }
+
+            /* Scroll container (slider) */
+            .unique-scroll-container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            .unique-scroll-content {
+                display: flex;
+                gap: 20px;
+                animation: unique-auto-slide 20s linear infinite;
+            }
+
+            /* Service Item */
+            .unique-service-item {
+                flex: 0 0 auto;
+                width: 160px;
+                height: 160px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                perspective: 1000px;
+            }
+
+            /* 3D Box */
+            .unique-service-box {
+                width: 150px;
+                height: 150px;
+                background: #ffffff;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform-style: preserve-3d;
+                transform: rotateY(0deg);
+                transition: transform 0.6s ease, box-shadow 0.3s ease;
+            }
+
+            .unique-service-box:hover {
+                transform: rotateY(20deg) rotateX(10deg);
+                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+            }
+
+            .unique-service-box img {
+                max-width: 80%;
+                max-height: 80%;
+                object-fit: contain;
+            }
+
+            /* Animation for continuous loop */
+            @keyframes unique-auto-slide {
+                0% {
+                    transform: translateX(0%);
+                }
+
+                100% {
+                    transform: translateX(-50%);
+                }
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .unique-scroll-content {
+                    gap: 10px;
+                }
+
+                .unique-service-item {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                .unique-service-box {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .unique-section__title {
+                    font-size: 20px;
+                }
+
+                .unique-section__subtitle {
+                    font-size: 14px;
+                }
+            }
         </style>
         <!-- Our Experties end  -->
 
@@ -736,113 +736,113 @@ include('header.php');
             </div>
         </div>
         <style>
-        /* Overall container */
-        .unique-client-service {
-            padding: 60px 15px;
-        }
-
-        /* Section Title */
-        .unique-section__title {
-            font-size: 24px;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-
-        .unique-section__subtitle {
-            display: inline-block;
-            padding: 5px 15px;
-            color: #ffffff;
-            background-color: #3498db;
-            border-radius: 25px;
-            font-size: 16px;
-        }
-
-        /* Scroll container (slider) */
-        .unique-scroll-container {
-            position: relative;
-            overflow: hidden;
-            width: 100%;
-        }
-
-        .unique-scroll-content {
-            display: flex;
-            gap: 20px;
-            animation: unique-auto-slide 20s linear infinite;
-        }
-
-        /* Client Item */
-        .unique-client-item {
-            flex: 0 0 auto;
-            width: 160px;
-            height: 160px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            perspective: 1000px;
-        }
-
-        /* 3D Box */
-        .unique-client-box {
-            width: 150px;
-            height: 150px;
-            background: #ffffff;
-            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transform-style: preserve-3d;
-            transform: rotateY(0deg);
-            transition: transform 0.6s ease, box-shadow 0.3s ease;
-        }
-
-        .unique-client-box:hover {
-            transform: rotateY(20deg) rotateX(10deg);
-            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
-        }
-
-        .unique-client-box img {
-            max-width: 80%;
-            max-height: 80%;
-            object-fit: contain;
-        }
-
-        /* Animation for continuous loop */
-        @keyframes unique-auto-slide {
-            0% {
-                transform: translateX(0%);
+            /* Overall container */
+            .unique-client-service {
+                padding: 60px 15px;
             }
 
-            100% {
-                transform: translateX(-50%);
-            }
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .unique-scroll-content {
-                gap: 10px;
-            }
-
-            .unique-client-item {
-                width: 120px;
-                height: 120px;
-            }
-
-            .unique-client-box {
-                width: 100px;
-                height: 100px;
-            }
-
+            /* Section Title */
             .unique-section__title {
-                font-size: 20px;
+                font-size: 24px;
+                color: #2c3e50;
+                margin-bottom: 10px;
+                font-weight: bold;
             }
 
             .unique-section__subtitle {
-                font-size: 14px;
+                display: inline-block;
+                padding: 5px 15px;
+                color: #ffffff;
+                background-color: #3498db;
+                border-radius: 25px;
+                font-size: 16px;
             }
-        }
+
+            /* Scroll container (slider) */
+            .unique-scroll-container {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+            }
+
+            .unique-scroll-content {
+                display: flex;
+                gap: 20px;
+                animation: unique-auto-slide 20s linear infinite;
+            }
+
+            /* Client Item */
+            .unique-client-item {
+                flex: 0 0 auto;
+                width: 160px;
+                height: 160px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                perspective: 1000px;
+            }
+
+            /* 3D Box */
+            .unique-client-box {
+                width: 150px;
+                height: 150px;
+                background: #ffffff;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform-style: preserve-3d;
+                transform: rotateY(0deg);
+                transition: transform 0.6s ease, box-shadow 0.3s ease;
+            }
+
+            .unique-client-box:hover {
+                transform: rotateY(20deg) rotateX(10deg);
+                box-shadow: 0 12px 25px rgba(0, 0, 0, 0.5);
+            }
+
+            .unique-client-box img {
+                max-width: 80%;
+                max-height: 80%;
+                object-fit: contain;
+            }
+
+            /* Animation for continuous loop */
+            @keyframes unique-auto-slide {
+                0% {
+                    transform: translateX(0%);
+                }
+
+                100% {
+                    transform: translateX(-50%);
+                }
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                .unique-scroll-content {
+                    gap: 10px;
+                }
+
+                .unique-client-item {
+                    width: 120px;
+                    height: 120px;
+                }
+
+                .unique-client-box {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .unique-section__title {
+                    font-size: 20px;
+                }
+
+                .unique-section__subtitle {
+                    font-size: 14px;
+                }
+            }
         </style>
         <!--Clint Start-->
 
@@ -977,43 +977,206 @@ include('header.php');
             <div class="container">
                 <div class="row">
                     <div class="col-xl-3 col-md-6">
-                        <div class="ab-fact-item mb-30">
-                            <span class="counter-up">150</span>
-                            <h3 class="ab-fact-item__title"><a href="#">Successful projects</a></h3>
-                            <!-- <p>You every can't thing seed subdue
-                            subdue light female.</p> -->
+                        <div class="ab-fact-item mb-30" style="text-align: center;">
+                            <span class="counter-up"
+                                style="display: flex; justify-content: center; align-items: center; width: 100%;">150</span>
+                            <h3 class="ab-fact-item__title" style="text-align: center;"><a href="#">Successful
+                                    projects</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6">
-                        <div class="ab-fact-item mb-30">
-                            <span class="counter-up">120</span>
-                            <h3 class="ab-fact-item__title"><a href="#">Satisfied Clients</a></h3>
-                            <!-- <p>You every can't thing seed subdue
-                            subdue light female.</p> -->
+                        <div class="ab-fact-item mb-30" style="text-align: center;">
+                            <span class="counter-up"
+                                style="display: flex; justify-content: center; align-items: center; width: 100%;">120</span>
+                            <h3 class="ab-fact-item__title" style="text-align: center;"><a href="#">Satisfied
+                                    Clients</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6">
-                        <div class="ab-fact-item mb-30">
-                            <span class="counter-up">2</span>
-                            <h3 class="ab-fact-item__title"><a href="#">Years of exeperience</a></h3>
-                            <!-- <p>You every can't thing seed subdue
-                            subdue light female.</p> -->
+                        <div class="ab-fact-item mb-30" style="text-align: center;">
+                            <span class="counter-up"
+                                style="display: flex; justify-content: center; align-items: center; width: 100%;">2</span>
+                            <h3 class="ab-fact-item__title" style="text-align: center;"><a href="#">Years of
+                                    experience</a></h3>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-6">
-                        <div class="ab-fact-item mb-30">
-                            <span class="counter-up">256</span>
-                            <h3 class="ab-fact-item__title"><a href="#">Full Time Staff</a></h3>
-                            <!-- <p>You every can't thing seed subdue
-                            subdue light female.</p> -->
+                        <div class="ab-fact-item mb-30" style="text-align: center;">
+                            <span class="counter-up"
+                                style="display: flex; justify-content: center; align-items: center; width: 100%;">256</span>
+                            <h3 class="ab-fact-item__title" style="text-align: center;"><a href="#">Full Time Staff</a>
+                            </h3>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <br>
 
         <!-- clinr count end -->
+
+
+        <!--Industries We Have Served Start -->
+        <div class="unique-client-service pt-120 pb-90">
+            <div class="container">
+                <div class="section-title-wrapper pb-55">
+                    <div class="tp-section text-center">
+                        <span class="tp-section__subtitle vogue-text-color white-bg mb-15">
+                            <i class="before-border wow tpfadeUp" data-wow-delay=".3s"></i> Served More than 10
+                            Industries <i class="after-border"></i>
+                        </span>
+                        <h2 class="tp-section__title vogue-text-color wow tpfadeUp" data-wow-delay=".3s">
+                            Industries We Have Served
+                        </h2>
+                        <p class="text-grey wow tpfadeUp" data-wow-delay=".3s">
+                            We have delivered customized solutions for more than 300 clients across more than 10
+                            industries.
+                        </p>
+                    </div>
+
+                    <div class="industries-grid">
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/ecommerce-1.png" alt="Ecommerce">
+                            <p>Ecommerce, Retail & B2B</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/manufacture-1.png" alt="Manufacturing">
+                            <p>Manufacturing</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/hospitality-1.png" alt="Hospitality">
+                            <p>Hospitality</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/healthcare-1.png" alt="Healthcare">
+                            <p>Healthcare & Fitness</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/on-demand-1.png" alt="On-Demand">
+                            <p>On-Demand Solutions</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/logistick-1.png" alt="Logistics">
+                            <p>Logistics & Distribution</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/banking-1.png" alt="Banking">
+                            <p>Banking, Finance & Insurance</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/education-1.png" alt="Education">
+                            <p>Education & eLearning</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/transfort-1.png" alt="Transport">
+                            <p>Transport & Automotive</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/Social-1.png" alt="Social Networking">
+                            <p>Social Networking</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/food-1.png" alt="Food">
+                            <p>Food & Restaurant</p>
+                        </div>
+                        <div class="industry-card">
+                            <img src="assets/img/iconourwork/realestate-1.png" alt="Real Estate">
+                            <p>Real Estate & Property</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .industry-card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 15px;
+                border-radius: 10px;
+                background: var(--tp-theme-bg);
+                /* Light grey background */
+                width: 100%;
+                min-height: 150px;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+                /* Soft shadow with opacity */
+            }
+
+            /* Adding the gradient effect on the left side */
+            .industry-card::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 6px;
+                /* Adjust width as needed */
+                height: 100%;
+                background: linear-gradient(to bottom,
+                        var(--tp-theme-redical),
+                        var(--tp-theme-vogue),
+                        var(--tp-theme-orange));
+                border-radius: 10px 0 0 10px;
+            }
+
+
+            .industries-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 30px;
+                justify-content: center;
+                align-items: center;
+                padding: 20px 0;
+            }
+
+            @media (min-width: 1200px) {
+                .industries-grid {
+                    grid-template-columns: repeat(6, 1fr);
+                }
+            }
+
+            @media (max-width: 1199px) {
+                .industries-grid {
+                    grid-template-columns: repeat(4, 1fr);
+                }
+            }
+
+            @media (max-width: 768px) {
+                .industries-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+
+            @media (max-width: 480px) {
+                .industries-grid {
+                    grid-template-columns: repeat(1, 1fr);
+                }
+            }
+
+            .industry-card img {
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin-bottom: 10px;
+            }
+
+            .industry-card p {
+                font-size: 14px;
+                font-weight: bold;
+                color: #333;
+                text-align: center;
+            }
+        </style>
+
+        <!--Industries We Have Served Start End -->
+
+
 
         <!--Blog Start-->
         <div class="tp-it-testimonial fix pb-120">
@@ -1052,77 +1215,77 @@ include('header.php');
                 </div>
             </div>
             <style>
-            .unique-card-container {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 2rem;
-                max-width: 1200px;
-                margin: 2rem auto;
-                padding: 1rem;
-            }
-
-            .unique-card {
-                display: flex;
-                flex-direction: column;
-                width: clamp(18rem, 90%, 22rem);
-                overflow: hidden;
-                box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
-                border-radius: 1em;
-                background: linear-gradient(to right, #ffffff, #ece9e6);
-            }
-
-            .unique-card img {
-                width: 100%;
-                display: block;
-                object-fit: cover;
-            }
-
-            .unique-card-content {
-                padding: 1rem;
-                display: flex;
-                flex-direction: column;
-                gap: 0.5rem;
-            }
-
-            .unique-category-tag {
-                align-self: flex-start;
-                padding: 0.25em 0.75em;
-                border-radius: 1em;
-                font-size: 0.75rem;
-                color: #fafafa;
-            }
-
-            .unique-tech {
-                background: linear-gradient(to bottom, var(--tp-theme-orange), var(--tp-theme-redical));
-            }
-
-            .unique-food {
-                background: linear-gradient(to bottom, var(--tp-theme-orange), var(--tp-theme-redical));
-            }
-
-            .unique-card-footer {
-                display: flex;
-                padding: 1rem;
-                margin-top: auto;
-            }
-
-            .unique-author {
-                display: flex;
-                gap: 0.5rem;
-                align-items: center;
-            }
-
-            .unique-author img {
-                border-radius: 50%;
-            }
-
-            @media (max-width: 768px) {
                 .unique-card-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 2rem;
+                    max-width: 1200px;
+                    margin: 2rem auto;
+                    padding: 1rem;
+                }
+
+                .unique-card {
+                    display: flex;
                     flex-direction: column;
+                    width: clamp(18rem, 90%, 22rem);
+                    overflow: hidden;
+                    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+                    border-radius: 1em;
+                    background: linear-gradient(to right, #ffffff, #ece9e6);
+                }
+
+                .unique-card img {
+                    width: 100%;
+                    display: block;
+                    object-fit: cover;
+                }
+
+                .unique-card-content {
+                    padding: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5rem;
+                }
+
+                .unique-category-tag {
+                    align-self: flex-start;
+                    padding: 0.25em 0.75em;
+                    border-radius: 1em;
+                    font-size: 0.75rem;
+                    color: #fafafa;
+                }
+
+                .unique-tech {
+                    background: linear-gradient(to bottom, var(--tp-theme-orange), var(--tp-theme-redical));
+                }
+
+                .unique-food {
+                    background: linear-gradient(to bottom, var(--tp-theme-orange), var(--tp-theme-redical));
+                }
+
+                .unique-card-footer {
+                    display: flex;
+                    padding: 1rem;
+                    margin-top: auto;
+                }
+
+                .unique-author {
+                    display: flex;
+                    gap: 0.5rem;
                     align-items: center;
                 }
-            }
+
+                .unique-author img {
+                    border-radius: 50%;
+                }
+
+                @media (max-width: 768px) {
+                    .unique-card-container {
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                }
             </style>
 
             <div class="unique-card-container">

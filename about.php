@@ -32,7 +32,7 @@ include('header.php');?>
                                     <span>Good Expertise In Web And App Development</span>
                                 </div>
                                 <div class="law-about-img-1">
-                                    <img src="assets/img/about/Aboutus1.png" alt="">
+                                    <img src="assets/img/about//aboutwebwala.png" alt="">
 
                                 </div>
                             </div>
@@ -113,41 +113,40 @@ include('header.php');?>
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 col-md-6">
-                    <div class="ab-fact-item mb-30">
-                        <span class="counter-up">150</span>
-                        <h3 class="ab-fact-item__title"><a href="#">Successful projects</a></h3>
-                        <!-- <p>You every can't thing seed subdue
-                            subdue light female.</p> -->
+                    <div class="ab-fact-item mb-30" style="text-align: center;">
+                        <span class="counter-up"
+                            style="display: flex; justify-content: center; align-items: center; width: 100%;">150</span>
+                        <h3 class="ab-fact-item__title" style="text-align: center;"><a href="#">Successful
+                                projects</a></h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6">
-                    <div class="ab-fact-item mb-30">
-                        <span class="counter-up">120</span>
-                        <h3 class="ab-fact-item__title"><a href="#">Satisfied Clients</a></h3>
-                        <!-- <p>You every can't thing seed subdue
-                            subdue light female.</p> -->
+                    <div class="ab-fact-item mb-30" style="text-align: center;">
+                        <span class="counter-up"
+                            style="display: flex; justify-content: center; align-items: center; width: 100%;">120</span>
+                        <h3 class="ab-fact-item__title" style="text-align: center;"><a href="#">Satisfied
+                                Clients</a></h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6">
-                    <div class="ab-fact-item mb-30">
-                        <span class="counter-up">2</span>
-                        <h3 class="ab-fact-item__title"><a href="#">Years of exeperience</a></h3>
-                        <!-- <p>You every can't thing seed subdue
-                            subdue light female.</p> -->
+                    <div class="ab-fact-item mb-30" style="text-align: center;">
+                        <span class="counter-up"
+                            style="display: flex; justify-content: center; align-items: center; width: 100%;">2</span>
+                        <h3 class="ab-fact-item__title" style="text-align: center;"><a href="#">Years of
+                                experience</a></h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-6">
-                    <div class="ab-fact-item mb-30">
-                        <span class="counter-up">256</span>
-                        <h3 class="ab-fact-item__title"><a href="#">Full Time Staff</a></h3>
-                        <!-- <p>You every can't thing seed subdue
-                            subdue light female.</p> -->
+                    <div class="ab-fact-item mb-30" style="text-align: center;">
+                        <span class="counter-up"
+                            style="display: flex; justify-content: center; align-items: center; width: 100%;">256</span>
+                        <h3 class="ab-fact-item__title" style="text-align: center;"><a href="#">Full Time Staff</a>
+                        </h3>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <!-- team area start -->
     <!-- <div class="da-team-area pt-120 pb-90">
         <div class="container">
@@ -202,6 +201,166 @@ include('header.php');?>
         </div>
     </div> -->
     <!-- team area end  -->
+
+
+    <!--Industries We Have Served Start -->
+    <div class="unique-client-service pt-120 pb-90">
+        <div class="container">
+            <div class="section-title-wrapper pb-55">
+                <div class="tp-section text-center">
+                    <span class="tp-section__subtitle vogue-text-color white-bg mb-15">
+                        <i class="before-border wow tpfadeUp" data-wow-delay=".3s"></i> Served More than 10
+                        Industries <i class="after-border"></i>
+                    </span>
+                    <h2 class="tp-section__title vogue-text-color wow tpfadeUp" data-wow-delay=".3s">
+                        Industries We Have Served
+                    </h2>
+                    <p class="text-grey wow tpfadeUp" data-wow-delay=".3s">
+                        We have delivered customized solutions for more than 300 clients across more than 10
+                        industries.
+                    </p>
+                </div>
+
+                <div class="industries-grid">
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/ecommerce-1.png" alt="Ecommerce">
+                        <p>Ecommerce, Retail & B2B</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/manufacture-1.png" alt="Manufacturing">
+                        <p>Manufacturing</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/hospitality-1.png" alt="Hospitality">
+                        <p>Hospitality</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/healthcare-1.png" alt="Healthcare">
+                        <p>Healthcare & Fitness</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/on-demand-1.png" alt="On-Demand">
+                        <p>On-Demand Solutions</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/logistick-1.png" alt="Logistics">
+                        <p>Logistics & Distribution</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/banking-1.png" alt="Banking">
+                        <p>Banking, Finance & Insurance</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/education-1.png" alt="Education">
+                        <p>Education & eLearning</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/transfort-1.png" alt="Transport">
+                        <p>Transport & Automotive</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/Social-1.png" alt="Social Networking">
+                        <p>Social Networking</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/food-1.png" alt="Food">
+                        <p>Food & Restaurant</p>
+                    </div>
+                    <div class="industry-card">
+                        <img src="assets/img/iconourwork/realestate-1.png" alt="Real Estate">
+                        <p>Real Estate & Property</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+    .industry-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+        border-radius: 10px;
+        background: var(--tp-theme-bg);
+        /* Light grey background */
+        width: 100%;
+        min-height: 150px;
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        /* Soft shadow with opacity */
+    }
+
+    /* Adding the gradient effect on the left side */
+    .industry-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 6px;
+        /* Adjust width as needed */
+        height: 100%;
+        background: linear-gradient(to bottom,
+                var(--tp-theme-redical),
+                var(--tp-theme-vogue),
+                var(--tp-theme-orange));
+        border-radius: 10px 0 0 10px;
+    }
+
+
+    .industries-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    @media (min-width: 1200px) {
+        .industries-grid {
+            grid-template-columns: repeat(6, 1fr);
+        }
+    }
+
+    @media (max-width: 1199px) {
+        .industries-grid {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .industries-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .industries-grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .industry-card img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .industry-card p {
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+    }
+    </style>
+
+    <!--Industries We Have Served Start End -->
 
 
     <div class="tp-about-deatials-service theme-bg pt-120 pb-90">
