@@ -206,7 +206,7 @@
                     <span><i class="fal fa-times"></i></span>
                 </div>
                 <div class="tp-offcanvas__logo mb-50">
-                    <a href="#"> <img src="assets/img/logo/urlwebwala.png" style="width:180px;" alt="logo"></a>
+                    <a href="#"> <img src="assets/img/logo/urlwebwala.png" style="width:100px;" alt="logo"></a>
                 </div>
                 <p>We believe that every customer deserves a quality experience and we're committed to delivering just
                     that.</p>
