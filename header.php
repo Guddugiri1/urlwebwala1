@@ -130,7 +130,7 @@
                             <div class="col-xxl-3 col-xl-2 col-6">
                                 <div class="logo border-right" style="margin-left: 20px; width: 350px;">
                                     <a href="#">
-                                        <img src="assets/img/logo/urlwebwala.png" style="width:215px;" alt="logo">
+                                        <img src="assets/img/logo/urlwebwala.png" style="width:200px;" alt="logo">
                                     </a>
                                 </div>
                             </div>
