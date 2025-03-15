@@ -163,7 +163,21 @@
 
 
         </div>
+
+
+        <div class="cookie-container hide">
+            <p class="cookie-text">
+                We use cookies and similar technologies that are necessary to operate the website. Additional cookies
+                are used to perform analysis of website usage. By continuing to use our website, consent to our use of
+                cookies. For more information, please read our <a href="#"> Privacy Policy.</a>
+            </p>
+            <div class="agree">
+                <button>Sounds good!</button>
+            </div>
+        </div>
 </footer>
+
+
 <!-- JS here -->
 <script src="assets/js/jquery.js"></script>
 <script src="assets/js/waypoints.js"></script>

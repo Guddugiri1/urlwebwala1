@@ -54,13 +54,13 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZ5QVDBENP"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'G-NZ5QVDBENP');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-NZ5QVDBENP');
     </script>
 
 
@@ -79,11 +79,33 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="stylecookies.css">
+
 
 </head>
 
 
 <body>
+
+    <!-- Cookie Banner -->
+    <div class="cookie-container hide">
+        <p class="cookie-text">
+            We use cookies and similar technologies to enhance your browsing experience, analyze website traffic, and
+            improve our services.
+            Some cookies are essential for the website to function, while others help us provide insights and
+            personalized
+            content.
+            You can manage your preferences or accept all cookies for the best experience.
+            For more details, read our <a href="privacypolicy.php"><b style="color: red;">Privacy Policy</b></a>.
+        </p>
+        <div class="cookie-buttons">
+            <button id="denyCookies" class="outline-btn">Deny</button>
+            <button id="acceptCookies" class="filled-btn">Accept all cookies</button>
+        </div>
+
+    </div>
+    <script src="scriptcookies.js"></script>
+
 
     <body onload="preloader()">
         <div class="preloaderBg" id="preloader">
@@ -249,24 +271,24 @@
     <div class="body-overlay"></div>
     <!-- back to top start  -->
     <style>
-    .float {
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 53.1px;
-        right: 50px;
-        background-color: #25d366;
-        color: #FFF;
-        border-radius: 50px;
-        text-align: center;
-        font-size: 30px;
-        box-shadow: 2px 2px 3px #999;
-        z-index: 100;
-    }
+        .float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 53.1px;
+            right: 50px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
 
-    .my-float {
-        margin-top: 16px;
-    }
+        .my-float {
+            margin-top: 16px;
+        }
     </style>
 
     <a href="#main-wrapper" id="tp-backto-top" class="tp-back-to-top show">
